@@ -2084,20 +2084,20 @@
             <column name="C_SYMBOL" value="DEM|SEX:Unspecified"/>
             <column name="EK_UNIQUE_ID" value="DEM|SEX:Unspecified"/>
         </insert>
-        <insert tableName="EK_DEMOG">
+        <insert tableName="EK_DEMOG" dbms="h2, oracle">
             <column name="C_HLEVEL" valueNumeric="2"/>
             <column name="C_FULLNAME" value="\EK\i2b2INTERNAL|Demographics\i2b2INTERNAL|Demographics|Age\"/>
             <column name="C_NAME" value="Age"/>
             <column name="C_SYNONYM_CD" value="N"/>
             <column name="C_VISUALATTRIBUTES" value="FAE"/>
-            <column name="C_BASECODE" value="i2b2INTERNAL|Demographics|Age"/>
+            <column name="C_BASECODE" value="DEM|Age"/>
             <column name="C_METADATAXML"/>
-            <column name="C_FACTTABLECOLUMN" value="concept_cd"/>
-            <column name="C_TABLENAME" value="concept_dimension"/>
-            <column name="C_COLUMNNAME" value="concept_path"/>
-            <column name="C_COLUMNDATATYPE" value="T"/>
-            <column name="C_OPERATOR" value="LIKE"/>
-            <column name="C_DIMCODE" value="\Cardiovascular Registry\i2b2INTERNAL|Demographics\i2b2INTERNAL|Demographics|Age\"/>
+            <column name="C_FACTTABLECOLUMN" value="patient_num"/>
+            <column name="C_TABLENAME" value="patient_dimension"/>
+            <column name="C_COLUMNNAME" value="birth_date"/>
+            <column name="C_COLUMNDATATYPE" value="N"/>
+            <column name="C_OPERATOR" value="&gt;"/>
+            <column name="C_DIMCODE" value="sysdate - (365.25 * 104)"/>
             <column name="C_COMMENT"/>
             <column name="C_TOOLTIP" value=" \ Eureka \ Demographics \ Age"/>
             <column name="M_APPLIED_PATH" value="@"/>
@@ -2108,8 +2108,35 @@
             <column name="VALUETYPE_CD"/>
             <column name="M_EXCLUSION_CD"/>
             <column name="C_PATH" value="\EK\i2b2INTERNAL|Demographics\"/>
-            <column name="C_SYMBOL" value="i2b2INTERNAL|Demographics|Age"/>
-            <column name="EK_UNIQUE_ID" value="i2b2INTERNAL|Demographics|Age"/>
+            <column name="C_SYMBOL" value="DEM|Age"/>
+            <column name="EK_UNIQUE_ID" value="DEM|Age"/>
+        </insert>
+        <insert tableName="EK_DEMOG" dbms="postgresql">
+            <column name="C_HLEVEL" valueNumeric="2"/>
+            <column name="C_FULLNAME" value="\EK\i2b2INTERNAL|Demographics\i2b2INTERNAL|Demographics|Age\"/>
+            <column name="C_NAME" value="Age"/>
+            <column name="C_SYNONYM_CD" value="N"/>
+            <column name="C_VISUALATTRIBUTES" value="FAE"/>
+            <column name="C_BASECODE" value="DEM|Age"/>
+            <column name="C_METADATAXML"/>
+            <column name="C_FACTTABLECOLUMN" value="patient_num"/>
+            <column name="C_TABLENAME" value="patient_dimension"/>
+            <column name="C_COLUMNNAME" value="birth_date"/>
+            <column name="C_COLUMNDATATYPE" value="N"/>
+            <column name="C_OPERATOR" value="&gt;"/>
+            <column name="C_DIMCODE" value="now() - ((365.25 * 104) || ' days')::interval"/>
+            <column name="C_COMMENT"/>
+            <column name="C_TOOLTIP" value=" \ Eureka \ Demographics \ Age"/>
+            <column name="M_APPLIED_PATH" value="@"/>
+            <column name="UPDATE_DATE" valueDate="2015-02-04 13:26:50.0"/>
+            <column name="DOWNLOAD_DATE"/>
+            <column name="IMPORT_DATE" valueDate="2015-02-04 13:26:50.0"/>
+            <column name="SOURCESYSTEM_CD" value="AIW I2B2 Loader"/>
+            <column name="VALUETYPE_CD"/>
+            <column name="M_EXCLUSION_CD"/>
+            <column name="C_PATH" value="\EK\i2b2INTERNAL|Demographics\"/>
+            <column name="C_SYMBOL" value="DEM|Age"/>
+            <column name="EK_UNIQUE_ID" value="DEM|Age"/>
         </insert>
         <insert tableName="EK_DEMOG" dbms="h2, oracle">
             <column name="C_HLEVEL" valueNumeric="3"/>
