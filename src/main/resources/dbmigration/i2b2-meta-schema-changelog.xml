@@ -132,6 +132,9 @@
         </createIndex>
     </changeSet>
     <changeSet author="arpost" id="META-9">
+        <preConditions onFail="CONTINUE">
+            <changeLogPropertyDefined property="i2b2.meta.phenotypesfolderdisabled" value="true"/>
+        </preConditions>
         <insert tableName="TABLE_ACCESS">
             <column name="C_TABLE_CD" value="EUREKAPHENOTYPEONTOLOGY"/>
             <column name="C_TABLE_NAME" value="EUREKAPHENOTYPEONTOLOGY"/>
