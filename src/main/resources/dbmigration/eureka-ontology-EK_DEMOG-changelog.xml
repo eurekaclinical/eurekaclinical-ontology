@@ -2096,8 +2096,8 @@
             <column name="C_TABLENAME" value="patient_dimension"/>
             <column name="C_COLUMNNAME" value="birth_date"/>
             <column name="C_COLUMNDATATYPE" value="N"/>
-            <column name="C_OPERATOR" value="&gt;"/>
-            <column name="C_DIMCODE" value="sysdate - (365.25 * 104)"/>
+            <column name="C_OPERATOR" value="IS NOT"/>
+            <column name="C_DIMCODE" valueComputed="SUBSTR('NULL',1,4)"/>
             <column name="C_COMMENT"/>
             <column name="C_TOOLTIP" value=" \ Eureka \ Demographics \ Age"/>
             <column name="M_APPLIED_PATH" value="@"/>
@@ -2123,8 +2123,8 @@
             <column name="C_TABLENAME" value="patient_dimension"/>
             <column name="C_COLUMNNAME" value="birth_date"/>
             <column name="C_COLUMNDATATYPE" value="N"/>
-            <column name="C_OPERATOR" value="&gt;"/>
-            <column name="C_DIMCODE" value="now() - ((365.25 * 104) || ' days')::interval"/>
+            <column name="C_OPERATOR" value="IS NOT"/>
+            <column name="C_DIMCODE" valueComputed="SUBSTR('NULL',1,4)"/>
             <column name="C_COMMENT"/>
             <column name="C_TOOLTIP" value=" \ Eureka \ Demographics \ Age"/>
             <column name="M_APPLIED_PATH" value="@"/>
