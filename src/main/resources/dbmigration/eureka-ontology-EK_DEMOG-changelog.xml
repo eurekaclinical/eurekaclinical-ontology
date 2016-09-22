@@ -10245,4 +10245,10 @@
             update ek_demog set c_dimcode='NULL' where ek_unique_id ='DEM|Age'
         </sql>
     </changeSet>
+    <changeSet author="akalsan" id="EK_DEMOG-13">
+        <update tableName="ek_demog">
+            <column name="c_name" value=">=90 years old"/>
+            <where>c_basecode='DEM|AGE:>=90'</where>
+        </update>
+    </changeSet>
 </databaseChangeLog>
