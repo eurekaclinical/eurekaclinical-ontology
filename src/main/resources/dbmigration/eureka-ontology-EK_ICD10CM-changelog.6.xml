@@ -11,7 +11,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -39,7 +39,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -67,7 +67,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -95,7 +95,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -123,7 +123,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -151,7 +151,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -179,7 +179,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -207,7 +207,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -235,7 +235,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -263,7 +263,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -291,7 +291,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -319,7 +319,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -347,7 +347,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -375,7 +375,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -403,7 +403,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -431,7 +431,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -459,7 +459,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -487,7 +487,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -515,7 +515,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -543,7 +543,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -571,7 +571,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -599,7 +599,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -627,7 +627,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -655,7 +655,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -683,7 +683,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -711,7 +711,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -739,7 +739,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -767,7 +767,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -795,7 +795,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -823,7 +823,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -851,7 +851,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -879,7 +879,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -907,7 +907,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -935,7 +935,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -963,7 +963,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -991,7 +991,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1019,7 +1019,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1047,7 +1047,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1075,7 +1075,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1103,7 +1103,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1131,7 +1131,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1159,7 +1159,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1187,7 +1187,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1215,7 +1215,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1243,7 +1243,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1271,7 +1271,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1299,7 +1299,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1327,7 +1327,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1355,7 +1355,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1383,7 +1383,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1411,7 +1411,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1439,7 +1439,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1467,7 +1467,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1495,7 +1495,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1523,7 +1523,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1551,7 +1551,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1579,7 +1579,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1607,7 +1607,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1635,7 +1635,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1663,7 +1663,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1691,7 +1691,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1719,7 +1719,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1747,7 +1747,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1775,7 +1775,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1803,7 +1803,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1831,7 +1831,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1859,7 +1859,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1887,7 +1887,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1915,7 +1915,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1943,7 +1943,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1971,7 +1971,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -1999,7 +1999,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2027,7 +2027,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2055,7 +2055,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2083,7 +2083,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2111,7 +2111,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2139,7 +2139,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2167,7 +2167,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2195,7 +2195,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2223,7 +2223,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2251,7 +2251,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2279,7 +2279,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2307,7 +2307,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2335,7 +2335,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2363,7 +2363,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2391,7 +2391,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2419,7 +2419,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2447,7 +2447,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2475,7 +2475,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2503,7 +2503,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2531,7 +2531,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2559,7 +2559,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2587,7 +2587,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2615,7 +2615,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2643,7 +2643,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2671,7 +2671,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2699,7 +2699,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2727,7 +2727,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2755,7 +2755,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2783,7 +2783,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2811,7 +2811,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2839,7 +2839,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2867,7 +2867,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2895,7 +2895,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2923,7 +2923,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2951,7 +2951,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -2979,7 +2979,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3007,7 +3007,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3035,7 +3035,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3063,7 +3063,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3091,7 +3091,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3119,7 +3119,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3147,7 +3147,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3175,7 +3175,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3203,7 +3203,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3231,7 +3231,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3259,7 +3259,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3287,7 +3287,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3315,7 +3315,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3343,7 +3343,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3371,7 +3371,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3399,7 +3399,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3427,7 +3427,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3455,7 +3455,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3483,7 +3483,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3511,7 +3511,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3539,7 +3539,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3567,7 +3567,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3595,7 +3595,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3623,7 +3623,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3651,7 +3651,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3679,7 +3679,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3707,7 +3707,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3735,7 +3735,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3763,7 +3763,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3791,7 +3791,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3819,7 +3819,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3847,7 +3847,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3875,7 +3875,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3903,7 +3903,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3931,7 +3931,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3959,7 +3959,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -3987,7 +3987,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4015,7 +4015,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4043,7 +4043,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4071,7 +4071,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4099,7 +4099,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4127,7 +4127,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4155,7 +4155,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4183,7 +4183,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4211,7 +4211,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4239,7 +4239,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4267,7 +4267,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4295,7 +4295,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4323,7 +4323,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4351,7 +4351,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4379,7 +4379,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4407,7 +4407,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4435,7 +4435,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4463,7 +4463,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4491,7 +4491,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4519,7 +4519,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4547,7 +4547,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4575,7 +4575,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4603,7 +4603,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4631,7 +4631,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4659,7 +4659,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4687,7 +4687,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4715,7 +4715,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4743,7 +4743,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4771,7 +4771,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4799,7 +4799,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4827,7 +4827,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4855,7 +4855,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4883,7 +4883,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4911,7 +4911,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4939,7 +4939,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4967,7 +4967,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -4995,7 +4995,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5023,7 +5023,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5051,7 +5051,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5079,7 +5079,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5107,7 +5107,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5135,7 +5135,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5163,7 +5163,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5191,7 +5191,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5219,7 +5219,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5247,7 +5247,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5275,7 +5275,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5303,7 +5303,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5331,7 +5331,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5359,7 +5359,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:D"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5387,7 +5387,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:I"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5415,7 +5415,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5443,7 +5443,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5471,7 +5471,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5499,7 +5499,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:P"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5527,7 +5527,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5555,7 +5555,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_PRIORTY:S"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5583,7 +5583,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5611,7 +5611,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5639,7 +5639,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5667,7 +5667,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5695,7 +5695,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5723,7 +5723,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5751,7 +5751,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:NI"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5779,7 +5779,7 @@
             <column name="C_VISUALATTRIBUTES" value="OA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5807,7 +5807,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5835,7 +5835,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:F"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
@@ -5863,7 +5863,7 @@
             <column name="C_VISUALATTRIBUTES" value="RA "/>
             <column name="C_TOTALNUM"/>
             <column name="C_BASECODE" value="ACT|DIAG_SOURCE:A"/>
-            <column name="C_METADATAXML" value=""/>
+            <column name="C_METADATAXML"/>
             <column name="C_FACTTABLECOLUMN" value="MODIFIER_CD"/>
             <column name="C_TABLENAME" value="MODIFIER_DIMENSION"/>
             <column name="C_COLUMNNAME" value="MODIFIER_PATH"/>
