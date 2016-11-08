@@ -40,7 +40,7 @@
             <column name="DISPLAYNAME" type="VARCHAR(255)"/>
         </createTable>
     </changeSet>
-    <changeSet author="arpost" id="META-2" dbms="oracle">
+    <changeSet author="arpost" id="META-2" dbms="oracle" failOnError="false">
         <sql dbms="oracle">
             CREATE GLOBAL TEMPORARY TABLE EK_TEMP_UNIQUE_IDS (UNIQUE_ID VARCHAR2(700)) ON COMMIT DELETE ROWS
         </sql>
@@ -48,7 +48,7 @@
             DROP TABLE EK_TEMP_UNIQUE_IDS
         </rollback>
     </changeSet>
-    <changeSet author="arpost" id="META-3" dbms="sqlserver">
+    <changeSet author="arpost" id="META-3" dbms="sqlserver" failOnError="false">
         <sql>
             CREATE TABLE ##EK_TEMP_UNIQUE_IDS (UNIQUE_ID VARCHAR(700))
         </sql>
@@ -157,7 +157,7 @@
             DELETE FROM TABLE_ACCESS WHERE C_TABLE_CD='EUREKAPHENOTYPEONTOLOGY'
         </rollback>
     </changeSet>
-		<changeSet author="arpost" id="META-10" dbms="oracle">
+    <changeSet author="arpost" id="META-10" dbms="oracle" failOnError="false">
         <sql dbms="oracle">
             CREATE GLOBAL TEMPORARY TABLE EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR2(50), M_APPLIED_PATH VARCHAR2(700), C_NAME VARCHAR2(2000), VALUETYPE_CD VARCHAR2(50), PROPERTYNAME VARCHAR2(255), C_METADATAXML CLOB) ON COMMIT DELETE ROWS
         </sql>
@@ -165,7 +165,7 @@
             DROP TABLE EK_TEMP_PROPERTIES
         </rollback>
     </changeSet>
-    <changeSet author="arpost" id="META-11" dbms="sqlserver">
+    <changeSet author="arpost" id="META-11" dbms="sqlserver" failOnError="false">
         <sql>
             CREATE TABLE ##EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR(50), M_APPLIED_PATH VARCHAR(700), C_NAME VARCHAR(2000), VALUETYPE_CD VARCHAR(50), PROPERTYNAME VARCHAR(255), C_METADATAXML VARCHAR(MAX))
         </sql>
