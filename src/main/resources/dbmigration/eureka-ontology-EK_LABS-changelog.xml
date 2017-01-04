@@ -6,7 +6,7 @@
     <property name="date.type" value="DATETIME" dbms="sqlserver"/>
     <property name="date.type" value="DATETIME" dbms="postgresql"/>
 		
-    <changeSet author="arpost" id="EK_LABS-1">
+<changeSet author="arpost" id="EK_LABS-1">
         <createTable tableName="EK_LABS">
             <column name="C_HLEVEL" type="NUMBER(22, 0)">
                 <constraints nullable="false"/>
@@ -63,9 +63,9 @@
                 <constraints nullable="false"/>
             </column>
         </createTable>
-    </changeSet>
+</changeSet>
 		
-		     <changeSet author="arpost" id="EK_LABS-7">
+<changeSet author="arpost" id="EK_LABS-7">
         <insert tableName="EK_LABS">
             <column name="C_HLEVEL" valueNumeric="4"/>
             <column name="C_FULLNAME" value="\ACT\Labs\LP40271-6\LP15838-3\LP69961-8\"/>
@@ -13973,56 +13973,67 @@
             <column name="C_SYMBOL" value="34704-7"/>
             <column name="EK_UNIQUE_ID" value="LOINC:34704-7"/>
         </insert>
-				<rollback>
-					DELETE FROM EK_LABS
-				</rollback>
-			</changeSet>
-			<changeSet author="arpost" id="EK_LABS-8">
-					<insert tableName="TABLE_ACCESS">
-					<column name="C_TABLE_CD" value="EK_LABS"/>
-					<column name="C_TABLE_NAME" value="EK_LABS"/>
-					<column name="C_PROTECTED_ACCESS" value="N"/>
-					<column name="C_HLEVEL" valueNumeric="1"/>
-					<column name="C_FULLNAME" value="\ACT\Labs\"/>
-					<column name="C_NAME" value="Labs"/>
-					<column name="C_SYNONYM_CD" value="N"/>
-					<column name="C_VISUALATTRIBUTES" value="CA"/>
-					<column name="C_FACTTABLECOLUMN" value="concept_cd"/>
-					<column name="C_DIMTABLENAME" value="concept_dimension"/>
-					<column name="C_COLUMNNAME" value="concept_path"/>
-					<column name="C_COLUMNDATATYPE" value="T"/>
-					<column name="C_OPERATOR" value="LIKE"/>
-					<column name="C_DIMCODE" value="\ACT\Labs\"/>
-					<column name="C_TOOLTIP" value="Labs"/>
-					<column name="C_STATUS_CD" value="A"/>
-				</insert>
-				<rollback>
-					DELETE FROM TABLE_ACCESS WHERE C_TABLE_NAME='EK_LABS'
-				</rollback>
-			</changeSet>
- <changeSet author="arpost" id="EK_LABS-2">
+        <rollback>
+                DELETE FROM EK_LABS
+        </rollback>
+</changeSet>
+
+<changeSet author="arpost" id="EK_LABS-8">
+        <insert tableName="TABLE_ACCESS">
+                <column name="C_TABLE_CD" value="EK_LABS"/>
+                <column name="C_TABLE_NAME" value="EK_LABS"/>
+                <column name="C_PROTECTED_ACCESS" value="N"/>
+                <column name="C_HLEVEL" valueNumeric="1"/>
+                <column name="C_FULLNAME" value="\ACT\Labs\"/>
+                <column name="C_NAME" value="Labs"/>
+                <column name="C_SYNONYM_CD" value="N"/>
+                <column name="C_VISUALATTRIBUTES" value="CA"/>
+                <column name="C_FACTTABLECOLUMN" value="concept_cd"/>
+                <column name="C_DIMTABLENAME" value="concept_dimension"/>
+                <column name="C_COLUMNNAME" value="concept_path"/>
+                <column name="C_COLUMNDATATYPE" value="T"/>
+                <column name="C_OPERATOR" value="LIKE"/>
+                <column name="C_DIMCODE" value="\ACT\Labs\"/>
+                <column name="C_TOOLTIP" value="Labs"/>
+                <column name="C_STATUS_CD" value="A"/>
+        </insert>
+        <rollback>
+                DELETE FROM TABLE_ACCESS WHERE C_TABLE_NAME='EK_LABS'
+        </rollback>
+</changeSet>
+<changeSet author="arpost" id="EK_LABS-2">
         <createIndex indexName="META_APPLIED_PATH_EK_LABS_IDX" tableName="EK_LABS" unique="false">
-            <column name="M_APPLIED_PATH"/>
+                 <column name="M_APPLIED_PATH"/>
         </createIndex>
-     </changeSet>
-		 <changeSet author="arpost" id="EK_LABS-3">
+</changeSet>
+<changeSet author="arpost" id="EK_LABS-3">
         <createIndex indexName="META_EKUID_EK_LABS_IDX" tableName="EK_LABS" unique="false">
-            <column name="EK_UNIQUE_ID"/>
+                 <column name="EK_UNIQUE_ID"/>
         </createIndex>
-     </changeSet>
-		 <changeSet author="arpost" id="EK_LABS-4">
+</changeSet>
+<changeSet author="arpost" id="EK_LABS-4">
         <createIndex indexName="META_FULLNAME_EK_LABS_IDX" tableName="EK_LABS" unique="false">
-            <column name="C_FULLNAME"/>
+                <column name="C_FULLNAME"/>
         </createIndex>
-     </changeSet>
-		 <changeSet author="arpost" id="EK_LABS-5">
+</changeSet>
+<changeSet author="arpost" id="EK_LABS-5">
         <createIndex indexName="META_PATH_EK_LABS_IDX" tableName="EK_LABS" unique="false">
-            <column name="C_PATH"/>
+                 <column name="C_PATH"/>
         </createIndex>
-     </changeSet>
-		 <changeSet author="arpost" id="EK_LABS-6">
+</changeSet>
+<changeSet author="arpost" id="EK_LABS-6">
         <createIndex indexName="META_SYMBOL_EK_LABS_IDX" tableName="EK_LABS" unique="false">
-            <column name="C_SYMBOL"/>
+                 <column name="C_SYMBOL"/>
         </createIndex>
-     </changeSet>
-		</databaseChangeLog>
+</changeSet>  
+<changeSet author="mai" id="EK_LABS-9">
+    <update tableName="ek_labs">
+        <column name="c_fullname" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\16128-1\"/>
+        <where>c_basecode ='LOINC:16128-1'</where>
+    </update>
+    <update tableName="ek_labs">
+        <column name="c_path" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\"/>
+        <where>c_basecode ='LOINC:16128-1'</where>
+    </update>    
+</changeSet>
+</databaseChangeLog>
