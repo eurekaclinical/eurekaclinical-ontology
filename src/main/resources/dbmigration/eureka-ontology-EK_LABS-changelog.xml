@@ -14036,4 +14036,32 @@
         <where>c_basecode ='LOINC:16128-1'</where>
     </update>    
 </changeSet>
+<changeSet author="mai" id="EK_LABS-10">
+    <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\16128-1\"/>
+        <where>c_basecode ='LOINC:16128-1'</where>
+    </update>
+</changeSet>
+<changeSet author="mai" id="EK_LABS-11">
+    <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\13955-0\"/>
+        <where>c_basecode ='LOINC:13955-0'</where> 
+    </update>
+    <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\22327-1\"/>
+        <where>c_basecode ='LOINC:22327-1'</where> 
+    </update>
+    <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\5198-7\"/>
+        <where>c_basecode ='LOINC:5198-7'</where> 
+    </update>    
+        <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\5199-5\"/>
+        <where>c_basecode ='LOINC:5199-5'</where> 
+    </update>
+    <update tableName="ek_labs">
+        <column name="c_dimcode" value="\ACT\Labs\LP14855-8\LP14400-3\LP43019-6\72376-7\"/>
+        <where>c_basecode ='LOINC:72376-7'</where> 
+    </update>   
+</changeSet>
 </databaseChangeLog>
