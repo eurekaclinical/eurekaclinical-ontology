@@ -173,4 +173,32 @@
             DROP TABLE ##EK_TEMP_PROPERTIES
         </rollback>
     </changeSet>
+		<changeSet author="arpost" id="META-12" dbms="oracle">
+        <dropTable tableName="EK_TEMP_PROPERTIES"/>
+			  <rollback>
+				    CREATE GLOBAL TEMPORARY TABLE EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR2(50), M_APPLIED_PATH VARCHAR2(700), C_NAME VARCHAR2(2000), VALUETYPE_CD VARCHAR2(50), PROPERTYNAME VARCHAR2(255), C_METADATAXML CLOB) ON COMMIT DELETE ROWS
+			  </rollback>
+    </changeSet>
+		<changeSet author="arpost" id="META-13" dbms="oracle">
+        <sql dbms="oracle">
+            CREATE GLOBAL TEMPORARY TABLE EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR2(50), M_APPLIED_PATH VARCHAR2(700), DECLARING_CONCEPT_ID VARCHAR2(50), C_NAME VARCHAR2(2000), VALUETYPE_CD VARCHAR2(50), PROPERTYNAME VARCHAR2(255), C_METADATAXML CLOB) ON COMMIT PRESERVE ROWS
+        </sql>
+        <rollback>
+            DROP TABLE EK_TEMP_PROPERTIES
+        </rollback>
+    </changeSet>
+		<changeSet author="arpost" id="META-14" dbms="sqlserver">
+			  <dropTable tableName="##EK_TEMP_PROPERTIES"/>
+        <rollback>
+            CREATE TABLE ##EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR(50), M_APPLIED_PATH VARCHAR(700), C_NAME VARCHAR(2000), VALUETYPE_CD VARCHAR(50), PROPERTYNAME VARCHAR(255), C_METADATAXML VARCHAR(MAX))
+        </rollback>
+    </changeSet>
+		<changeSet author="arpost" id="META-15" dbms="sqlserver">
+        <sql>
+            CREATE TABLE #EK_TEMP_PROPERTIES (EK_UNIQUE_ID VARCHAR(50), M_APPLIED_PATH VARCHAR(700), C_NAME VARCHAR(2000), VALUETYPE_CD VARCHAR(50), PROPERTYNAME VARCHAR(255), C_METADATAXML VARCHAR(MAX))
+        </sql>
+        <rollback>
+            DROP TABLE #EK_TEMP_PROPERTIES
+        </rollback>
+    </changeSet>
 </databaseChangeLog>
