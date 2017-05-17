@@ -122,6 +122,11 @@ Tracking Codes for Performance Management …
 ### Medication orders
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
 |------------|-----------|-------------------------------------------------------------------|---------------------|
+| MEDICATION_CODE | | RxNorm RxCUI | Map drugs to RxNorm’s Semantic Clinical Drug (SCD), Semantic Branded Drug (SBD), Generic Pack (GPCK), or Branded Pack (BPCK) form. These concepts contain drug name, strength, form, and route of administration. See below for content. |
+| MEDICATION_TYPE | | “Products by VA Class” classification from the National Drug File - Reference Terminology (NDF-RT). | Medication classification system is NDF-RT and the medication coding system is RxNORM. The deepest level in the classification is RxNorm’s Semantic Clinical Drug (SCD) form, which contains name, form, and route of administration. |
+| MEDICATION_CODING_SYSTEM_VERSION | | Example: RxNorm 01-Dec-2014;17-Dec-2014 | Medication classification system and medication coding system version. |
+| ORDER_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Order date and time. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
+| ORDER_TYPE | TEXT(2) | ID=Inpatient Dispensed<br/>AP=Ambulatory Prescribed<br/>NI=No information | Location where medication was ordered. |
 
 ### Laboratory tests
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
