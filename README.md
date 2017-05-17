@@ -44,16 +44,18 @@ The project also provides demographics and vital signs concept hierarchies that 
 Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml` for database-agnostic DDL for these extensions.
 
 ### Ontology tables
-Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with the same length as C_FULLNAME. We also index the column. 
+Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with length 700. It is expected to be globally unique. We also index the column. 
 
 ### Additional tables
+The additional tables are represented in the following model:
+![Metadata extensions model](https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Eureka%20Clinical%20metadata%20extensions.png)
 #### EK_MODIFIER_INTERP
 When i2b2 modifiers are specified as records in an i2b2 metadata table, there is insufficient metadata for Eureka! Clinical to map a modifier to a Eureka! Clinical property. The EK_MODIFIER_INTERP table annotates such modifier records to indicate the modifier to which they belong.
 #### EK_TEMP_UNIQUE_IDS
-A temporary table for caching EK_UNIQUE_ID values during retrieval of metadata. Should be cleared at the end of transactions.
+A transaction-scoped temporary table for caching EK_UNIQUE_ID values during retrieval of metadata.
 
 #### EK_TEMP_PROPERTIES
-A temporary table to caching Eureka! Clinical property information during retrieval of metadata. Should be cleared at the end of sessions.
+A session-scoped temporary table to caching Eureka! Clinical property information during retrieval of metadata.
 
 ## Running liquibase with the changelog files
 There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
