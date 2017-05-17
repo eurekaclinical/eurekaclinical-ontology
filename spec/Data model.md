@@ -26,12 +26,21 @@ The data model uses a single null value, NI=No Information, to represent missing
 | DEATH_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Date and time of death. Death date is not PHI. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
 
 ### Diagnoses
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
 
 ### Procedures
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
 
 ### Visits
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
 
 ### Medication orders
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
 
 ### Laboratory tests
-
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
