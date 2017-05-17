@@ -5,7 +5,7 @@
 It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions (in `src/main/resources/dbmigration`).
 
 ## Version 2 development series
-Includes changes to the metadata schema to support improved performance of SQL statements to retrieve concepts.
+Includes changes to the metadata schema to support improved performance of SQL statements to retrieve concepts. We also plan to update all of our terminologies to the latest versions.
 
 ## Version 1.2
 Initial version, with various bug fixes.
