@@ -65,7 +65,7 @@ TODO
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
 |------------|-----------|-------------------------------------------------------------------|---------------------|
 | PROCEDURE_CODE | | | Procedure code. See below for content. |
-| PROCEDURE_CODING_SYSTEM | | ICD-9-CM<br/><br/>ICD-10-PCS<br/><br/>CPT-4 (i.e., HCPCS Level 1) | Procedure coding system. |
+| PROCEDURE_CODING_SYSTEM | | ICD-9-CM<br/>ICD-10-PCS<br/>CPT-4 (i.e., HCPCS Level 1) | Procedure coding system. |
 | PROCEDURE_CODING_SYSTEM_VERSION | Example: ICD-9-CM Version 31 | Procedure coding system version. |
 | PROCEDURE_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Procedure date and time. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
 
