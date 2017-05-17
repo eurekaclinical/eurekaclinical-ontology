@@ -28,7 +28,7 @@ The project also provides customized demographics and vital signs concepts.
 Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema.
 
 ### Ontology tables
-Here is the DDL for creating a new ontology table that will work with both i2b2 and Eureka. It contains one additional column over stock i2b2, EK_UNIQUE_ID. We also index the column. Replace TABLE_NAME with a descriptive name for your table. For the indexes, also replace ABBREV_TABLE_NAME with a descriptive name.
+Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID. We also index the column. Here is the Oracle DDL for creating a new ontology table that will work with both i2b2 and Eureka. Replace TABLE_NAME with a descriptive name for your table. For the indexes, also replace ABBREV_TABLE_NAME with a descriptive name.
 ```
 CREATE TABLE "TABLE_NAME" 
    (	"C_HLEVEL" NUMBER(22,0), 
