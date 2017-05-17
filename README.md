@@ -25,10 +25,21 @@ Initial version, with various bug fixes.
 ## Building it
 The project uses the maven build tool. Typically, you build it by invoking `mvn clean install` at the command line. For simple file changes, not additions or deletions, you can usually use `mvn install`. See https://github.com/eurekaclinical/dev-wiki/wiki/Building-Eureka!-Clinical-projects for more details.
 
-## Adding the Eureka! Clinical extensions to an i2b2 metadata schema
-A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml`. We assume that the i2b2 metadata schema of interest is already created. Perform the following steps:
-1) Get a JDBC driver for your database and put it the liquibase lib directory.
-2) Run the following from the liquibase installation:
+## Creating an i2b2 metadata schema with Eureka! Clinical extensions
+1) Create a schema and a user account for accessing that schema. 
+2) Get a JDBC driver for your database and put it the liquibase lib directory. 
+3) Create the TABLE_ACCESS table by execute the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/create-table-access-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+4) Next, add the Eureka! Clinical extra tables to the schema:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -39,12 +50,7 @@ A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-s
       --password=DB_PASS \
       update
 ```
-
-## Installing the terminologies
-Liquibase changelogs for each terminology are provided in src/main/resources/dbmigration/ for loading the terminologies into a database. Get a JDBC driver for your database and put it the liquibase lib directory. We assume that the i2b2 metadata schema of interest is already created. Perform the following steps:
-
-### Demographics
-Run the following from the liquibase installation:
+5) Install the demographics concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -55,9 +61,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### ICD-10-CM
-Run the following from the liquibase installation:
+6) Install the ICD-10-CM concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -68,9 +72,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### ICD-10-PCS
-Run the following from the liquibase installation:
+7) Install the ICD-10-PCS concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -81,9 +83,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### ICD-9-CM
-Run the following from the liquibase installation:
+8) Install the ICD-9-CM concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -94,9 +94,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### ICD-9 procedures
-Run the following from the liquibase installation:
+9) Install the ICD-9 procedure concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -107,9 +105,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### Medication orders
-Run the following from the liquibase installation:
+10) Install the medication order concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -120,9 +116,7 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### Lab tests
-Run the following from the liquibase installation:
+11) Install the lab test concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
@@ -133,14 +127,25 @@ Run the following from the liquibase installation:
       --password=DB_PASS \
       update
 ```
-
-### Vital signs
-Run the following from the liquibase installation:
+12) Install the vital signs concepts:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
       --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
       --changeLogFile=dbmigration/eureka-ontology-EK_VITALS-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+## Add breakdown paths to the data schema
+Assuming you already have an i2b2 data schema, run the following:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-QT_BREAKDOWN_PATH-changelog.xml \
       --url="JDBC_CONNECTION_URL" \
       --username=DB_USER \
       --password=DB_PASS \
