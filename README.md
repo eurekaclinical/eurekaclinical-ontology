@@ -80,7 +80,9 @@ ALTER TABLE "TABLE_NAME" MODIFY ("C_FULLNAME" NOT NULL ENABLE);
 ALTER TABLE "TABLE_NAME" MODIFY ("C_HLEVEL" NOT NULL ENABLE);
 ```
 ### Additional tables
-
+#### EK_MODIFIER_INTERP
+#### EK_TEMP_UNIQUE_IDS
+#### EK_TEMP_PROPERTIES
 
 ## Running liquibase with the changelog files
 There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
