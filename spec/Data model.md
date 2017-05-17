@@ -16,6 +16,11 @@ The data model uses a single null value, NI=No Information, to represent missing
 
 ## Subject areas
 ### Demographics
+| Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
+|------------|-----------|-------------------------------------------------------------------|---------------------|
+| BIRTH_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Date and time of birth. Current age (at time of query) is calculated from this. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
+| SEX | TEXT(2) | A=Ambiguous, F=Female, M=Male, O=Other, NI=No information | Administrative sex. Assign ambiguous for transgender/hermaphrodite. For individuals undergoing gender re-assignment, use the Other category. |
+| HISPANIC | TEXT(2) | Y=Yes, N=No, NI=No information | A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. Uses "two question" approach. |
 
 ### Diagnoses
 
