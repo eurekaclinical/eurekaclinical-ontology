@@ -12,7 +12,7 @@ Initial version, with various bug fixes.
 
 ## Requirements
 * Java 8
-* Liquibase 3.3 or greater
+* Liquibase 3.3 or greater, available from http://www.liquibase.org/download/index.html
 
 ## Terminologies provided
 * ICD9-CM diagnosis codes
