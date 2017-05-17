@@ -25,64 +25,19 @@ Initial version, with various bug fixes.
 The project also provides demographics and vital signs concept hierarchies that were created by the Eureka! Clinical team, borrowing heavily from the demo data ontology from the i2b2 distribution.
 
 ## Extensions to the i2b2 metadata schema
-Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema.
+Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See `/src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml` for database-agnostic DDL for these extensions.
 
 ### Ontology tables
-Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with the same length as C_FULLNAME. We also index the column. Here is the Oracle DDL for creating a new ontology table that will work with both i2b2 and Eureka. Replace TABLE_NAME with a descriptive name for your table. For the indexes, also replace ABBREV_TABLE_NAME with a descriptive name.
-```
-CREATE TABLE "TABLE_NAME" 
-   (	"C_HLEVEL" NUMBER(22,0), 
-	"C_FULLNAME" VARCHAR2(700), 
-	"C_NAME" VARCHAR2(2000), 
-	"C_SYNONYM_CD" CHAR(1), 
-	"C_VISUALATTRIBUTES" CHAR(3), 
-	"C_TOTALNUM" NUMBER(22,0), 
-	"C_BASECODE" VARCHAR2(50), 
-	"C_METADATAXML" CLOB, 
-	"C_FACTTABLECOLUMN" VARCHAR2(50), 
-	"C_TABLENAME" VARCHAR2(50), 
-	"C_COLUMNNAME" VARCHAR2(50), 
-	"C_COLUMNDATATYPE" VARCHAR2(50), 
-	"C_OPERATOR" VARCHAR2(10), 
-	"C_DIMCODE" VARCHAR2(700), 
-	"C_COMMENT" CLOB, 
-	"C_TOOLTIP" VARCHAR2(900), 
-	"M_APPLIED_PATH" VARCHAR2(700), 
-	"UPDATE_DATE" DATE, 
-	"DOWNLOAD_DATE" DATE, 
-	"IMPORT_DATE" DATE, 
-	"SOURCESYSTEM_CD" VARCHAR2(50), 
-	"VALUETYPE_CD" VARCHAR2(50), 
-	"M_EXCLUSION_CD" VARCHAR2(25), 
-	"C_PATH" VARCHAR2(700), 
-	"C_SYMBOL" VARCHAR2(50), 
-	"EK_UNIQUE_ID" VARCHAR2(700)
-   ) ;
- 
-CREATE INDEX "META_PATH_ABBREV_TABLE_NAME_IDX" ON "TABLE_NAME" ("C_PATH");
-CREATE INDEX "META_EKUID_ABBREV_TABLE_NAME_IDX" ON "TABLE_NAME" ("EK_UNIQUE_ID");
-CREATE INDEX "META_FULLNAME_ABBREV_TABLE_NAME_IDX" ON "TABLE_NAME" ("C_FULLNAME");
-CREATE INDEX "META_APP_PATH_ABBREV_TABLE_NAME_IDX" ON "TABLE_NAME" ("M_APPLIED_PATH");
+Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with the same length as C_FULLNAME. We also index the column. 
 
-ALTER TABLE "TABLE_NAME" MODIFY ("EK_UNIQUE_ID" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("UPDATE_DATE" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("M_APPLIED_PATH" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_DIMCODE" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_OPERATOR" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_COLUMNDATATYPE" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_COLUMNNAME" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_TABLENAME" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_FACTTABLECOLUMN" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_VISUALATTRIBUTES" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_SYNONYM_CD" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_NAME" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_FULLNAME" NOT NULL ENABLE);
-ALTER TABLE "TABLE_NAME" MODIFY ("C_HLEVEL" NOT NULL ENABLE);
-```
 ### Additional tables
 #### EK_MODIFIER_INTERP
+When i2b2 modifiers are specified as records in an i2b2 metadata table, there is insufficient metadata for Eureka! Clinical to map a modifier to a Eureka! Clinical property. The EK_MODIFIER_INTERP table annotates such modifier records to indicate the modifier to which they belong.
 #### EK_TEMP_UNIQUE_IDS
+A temporary table for caching EK_UNIQUE_ID values during retrieval of metadata.
+
 #### EK_TEMP_PROPERTIES
+A temporary table to caching Eureka! Clinical property information during retrieval of metadata.
 
 ## Running liquibase with the changelog files
 There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
