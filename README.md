@@ -48,7 +48,9 @@ Eureka! Clinical ontology tables contain one additional column over stock i2b2, 
 
 ### Additional tables
 The additional tables are represented in the following model:
+
 ![Metadata extensions model](https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Eureka%20Clinical%20metadata%20extensions.png)
+
 #### EK_MODIFIER_INTERP
 When i2b2 modifiers are specified as records in an i2b2 metadata table, there is insufficient metadata for Eureka! Clinical to map a modifier to a Eureka! Clinical property. The EK_MODIFIER_INTERP table annotates such modifier records to indicate the modifier to which they belong.
 #### EK_TEMP_UNIQUE_IDS
