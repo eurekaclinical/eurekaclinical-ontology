@@ -16,4 +16,4 @@ When i2b2 modifiers are specified as records in an i2b2 metadata table, there is
 A transaction-scoped temporary table for caching EK_UNIQUE_ID values during retrieval of metadata.
 
 ### EK_TEMP_PROPERTIES
-A session-scoped temporary table to caching Eureka! Clinical property information during retrieval of metadata.
+A session-scoped temporary table for caching Eureka! Clinical property information during retrieval of metadata.
