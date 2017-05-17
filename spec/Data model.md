@@ -28,6 +28,12 @@ The data model uses a single null value, NI=No Information, to represent missing
 ### Diagnoses
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
 |------------|-----------|-------------------------------------------------------------------|---------------------|
+| DIAGNOSIS_CODE | | Diagnosis code. See below for content. |
+| DIAGNOSIS_CODING_SYSTEM | ICD-9-CM<br/>ICD-10-CM | Diagnosis coding system. |
+| DIAGNOSIS_CODING_SYSTEM_VERSION | Example:<br/><br/>ICD-9-CM Version 32 | Diagnosis coding system version. |
+| DIAGNOSIS_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Diagnosis date and time. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
+| DIAGNOSIS_SOURCE | TEXT(2) | AD=Admitting<br/>DI=Discharge<br/>FI=Final<br/>IN=Interim<br/>NI=No information | Classification of diagnosis source. We include these categories to allow some flexibility in implementation. The context is to capture available diagnoses recorded during a specific encounter. It is not necessary to populate interim diagnoses unless readily available.<br/><br/>Ambulatory encounters would generally be expected to have a source of “Final.” |
+| DIAGNOSIS_PRIORITY | TEXT92) | P=Primary<br/>S=Secondary<br/>NI=No information | Principal discharge diagnosis flag |
 
 ### Procedures
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
