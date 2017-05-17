@@ -35,8 +35,8 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 |------|---------|--------|
 | ICD9-CM diagnosis codes | | |
 | ICD9 procedure codes | | |
-| ICD10-CM diagnosis codes | FY 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
-| ICD10-PCS procedure codes | FY 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
+| ICD10-CM diagnosis codes | 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
+| ICD10-PCS procedure codes | 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
 | NCATS ACT lab test hierarchy (LOINC codes) | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
 | NCATS ACT NDF-RT/RxNorm hierarchy | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
 | Demographics | 1.0 | Locally developed, based on the i2b2 1.5 demo data ontology |
