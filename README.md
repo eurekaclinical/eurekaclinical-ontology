@@ -31,7 +31,7 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 ```
 
 ## Data model
-The electronic health recor data model is described at https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Data%20model.md.
+The electronic health record data model is described at https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Data%20model.md.
 
 ## Terminologies provided
 | Name | Version | Source |
