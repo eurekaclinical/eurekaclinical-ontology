@@ -41,8 +41,111 @@ A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-s
 ```
 
 ## Installing the terminologies
-Liquibase changelogs for each terminology are provided in src/main/resources/dbmigration/ for loading the terminologies into a database. Liquibase 3.3 or greater is required. A suitable copy of Liquibase is provided in the i2b2-export-package module. Perform the following steps:
-1) Create an i2b2 1.7 metadata schema.
+Liquibase changelogs for each terminology are provided in src/main/resources/dbmigration/ for loading the terminologies into a database. Get a JDBC driver for your database and put it the liquibase lib directory. We assume that the i2b2 metadata schema of interest is already created. Perform the following steps:
+
+### Demographics
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_DEMOG-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### ICD-10-CM
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_ICD10CM-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### ICD-10-PCS
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_ICD10PCS-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### ICD-9-CM
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_ICD9D-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### ICD-9 procedures
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_ICD9P-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### Medication orders
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### Lab tests
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_LABS-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+### Vital signs
+Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/eureka-ontology-EK_VITALS-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
 
 ## Maven dependency
 ```
