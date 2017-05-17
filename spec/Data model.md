@@ -264,82 +264,81 @@ Laboratory test hierarchy (test name, specimen type, LOINC code, units)
       * C reactive protein in Serum or Plasma by High sensitivity method 30522-7 mg/L
     * Protein LP69961-8
       * Protein in Serum or Plasma 2885-2 g/dL
-v  Hematology/Coagulation LP31756-7
-
-Hematology LP30786-5
-Basophils LP48336-9
-Basophils 26444-0 10^3/uL = k/mm^3
-Basophils by Automated count 704-7 10^3/uL = k/mm^3
-Basophils by Manual count 705-4 10^3/uL = k/mm^3
-Basophils/100 leukocytes 30180-4 %
-Basophils/100 leukocytes by Automated count 706-2 %
-Basophils/100 leukocytes by Manual count 707-0 %
-Eosinophils LP48337-7
-Eosinophils 26449-9 10^3/uL = k/mm^3
-Eosinophils by Automated count 711-2 10^3/uL = k/mm^3
-Eosinophils by Manual count 712-0 10^3/uL = k/mm^3
-Eosinophils/100 leukocytes 26450-7 %
-Eosinophils/100 leukocytes by Automated count 713-8 %
-Eosinophils/100 leukocytes by Manual count 714-6 %
-ESR LP45671-2
-ESR 30341-2 mm/h
-ESR by 15 minute reading 43402-7 mm/15 min
-ESR by Westergren method 4537-7 mm/h
-ESR by 2H Westergren method 18184-2 mm/2 h
-ESR by Wintrobe method 4538-5 mm/h
-Hematocrit LP45040-0
-Hematocrit 20570-8 %
-Hematocrit by Automated count 4544-3 %
-Hemoglobin LP43135-0
-Hemoglobin 718-7 g/dL
-Hemoglobin A1c LP100945-7
-Hemoglobin A1c in Blood 4548-4 %
-Hemoglobin A1c in Blood by calculation 17855-8 %
-Hemoglobin A1c in Blood by HPLC 17856-6 %
-Hemoglobin A1c in Blood by JDS/JSCC protocol 62388-4 %
-Hemoglobin A1c in Blood by IFCC protocol 59261-8 %
-Lymphocytes LP48347-6
-Lymphocytes 26474-7 10^3/uL = k/mm^3
-Lymphocytes by Automated count 731-0 10^3/uL = k/mm^3
-Lymphocytes by Manual count 732-8 10^3/uL = k/mm^3
-Lymphocytes/100 leukocytes 26478-8 %
-Lymphocytes/100 leukocytes by Automated count 736-9 %
-Lymphocytes/100 leukocytes by Manual count 737-7 %
-MCH LP48918-4
-MCH 28539-5 pg
-MCH by Automated count 785-6 pg
-MCHC LP48919-2
-MCHC 28540-3 g/dL
-MCHC by Automated count 786-4 g/dL
-MCV LP99254-2
-MCV 30428-7 fL
-MCV by Automated count 787-2 fL
-Monocytes LP48349-2
-Monocytes 26484-6 10^3/uL = k/mm^3
-Monocytes by Automated count 742-7 10^3/uL = k/mm^3
-Monocytes by Manual count 743-5 10^3/uL = k/mm^3
-Monocytes/100 leukocytes 26485-3 %
-Monocytes/100 leukocytes by Automated count 5905-5 %
-Monocytes/100 leukocytes by Manual count 744-3 %
-Neutrophils LP47720-5
-Neutrophils 26499-4 10^3/uL = k/mm^3
-Neutrophils by Automated count 751-8 10^3/uL = k/mm^3
-Neutrophils by Manual count 753-4 10^3/uL = k/mm^3
-Neutrophils/100 leukocytes 26511-6 %
-Neutrophils/100 leukocytes by Automated count 770-8 %
-Neutrophils/100 leukocytes by Manual count 23761-0 %
-Platelet Count LP7631-7
-Platelet by Automated count 777-3 10^9/L = k/mm^3
-Platelet by Manual count 778-1 10^9/L = k/mm^3
-RBC Count LP7536-8
-RBC by Automated count 789-8 10^12/L
-RBC by Manual count 790-6 10^12/L
-RDW LP46692-7
-RDW 30384-2 fL
-RDW by Automated count 21000-5 fL
-WBC Count LP7720-8
-WBC by Automated count 6690-2 10^9/L = k/mm^3
-WBC by Manual count 804-5 10^9/L = k/mm^3
+* Hematology/Coagulation LP31756-7
+  * Hematology LP30786-5
+    * Basophils LP48336-9
+      * Basophils 26444-0 10^3/uL = k/mm^3
+      * Basophils by Automated count 704-7 10^3/uL = k/mm^3
+      * Basophils by Manual count 705-4 10^3/uL = k/mm^3
+      * Basophils/100 leukocytes 30180-4 %
+      * Basophils/100 leukocytes by Automated count 706-2 %
+      * Basophils/100 leukocytes by Manual count 707-0 %
+    * Eosinophils LP48337-7
+      * Eosinophils 26449-9 10^3/uL = k/mm^3
+      * Eosinophils by Automated count 711-2 10^3/uL = k/mm^3
+      * Eosinophils by Manual count 712-0 10^3/uL = k/mm^3
+      * Eosinophils/100 leukocytes 26450-7 %
+      * Eosinophils/100 leukocytes by Automated count 713-8 %
+      * Eosinophils/100 leukocytes by Manual count 714-6 %
+    * ESR LP45671-2
+      * ESR 30341-2 mm/h
+      * ESR by 15 minute reading 43402-7 mm/15 min
+      * ESR by Westergren method 4537-7 mm/h
+      * ESR by 2H Westergren method 18184-2 mm/2 h
+      * ESR by Wintrobe method 4538-5 mm/h
+    * Hematocrit LP45040-0
+      * Hematocrit 20570-8 %
+      * Hematocrit by Automated count 4544-3 %
+    * Hemoglobin LP43135-0
+      * Hemoglobin 718-7 g/dL
+    * Hemoglobin A1c LP100945-7
+      * Hemoglobin A1c in Blood 4548-4 %
+      * Hemoglobin A1c in Blood by calculation 17855-8 %
+      * Hemoglobin A1c in Blood by HPLC 17856-6 %
+      * Hemoglobin A1c in Blood by JDS/JSCC protocol 62388-4 %
+      * Hemoglobin A1c in Blood by IFCC protocol 59261-8 %
+    * Lymphocytes LP48347-6
+      * Lymphocytes 26474-7 10^3/uL = k/mm^3
+      * Lymphocytes by Automated count 731-0 10^3/uL = k/mm^3
+      * Lymphocytes by Manual count 732-8 10^3/uL = k/mm^3
+      * Lymphocytes/100 leukocytes 26478-8 %
+      * Lymphocytes/100 leukocytes by Automated count 736-9 %
+      * Lymphocytes/100 leukocytes by Manual count 737-7 %
+    * MCH LP48918-4
+      * MCH 28539-5 pg
+      * MCH by Automated count 785-6 pg
+    * MCHC LP48919-2
+      * MCHC 28540-3 g/dL
+      * MCHC by Automated count 786-4 g/dL
+    * MCV LP99254-2
+      * MCV 30428-7 fL
+      * MCV by Automated count 787-2 fL
+    * Monocytes LP48349-2
+      * Monocytes 26484-6 10^3/uL = k/mm^3
+      * Monocytes by Automated count 742-7 10^3/uL = k/mm^3
+      * Monocytes by Manual count 743-5 10^3/uL = k/mm^3
+      * Monocytes/100 leukocytes 26485-3 %
+      * Monocytes/100 leukocytes by Automated count 5905-5 %
+      * Monocytes/100 leukocytes by Manual count 744-3 %
+    * Neutrophils LP47720-5
+      * Neutrophils 26499-4 10^3/uL = k/mm^3
+      * Neutrophils by Automated count 751-8 10^3/uL = k/mm^3
+      * Neutrophils by Manual count 753-4 10^3/uL = k/mm^3
+      * Neutrophils/100 leukocytes 26511-6 %
+      * Neutrophils/100 leukocytes by Automated count 770-8 %
+      * Neutrophils/100 leukocytes by Manual count 23761-0 %
+    * Platelet Count LP7631-7
+      * Platelet by Automated count 777-3 10^9/L = k/mm^3
+      * Platelet by Manual count 778-1 10^9/L = k/mm^3
+    * RBC Count LP7536-8
+      * RBC by Automated count 789-8 10^12/L
+      * RBC by Manual count 790-6 10^12/L
+    * RDW LP46692-7
+      * RDW 30384-2 fL
+      * RDW by Automated count 21000-5 fL
+    * WBC Count LP7720-8
+      * WBC by Automated count 6690-2 10^9/L = k/mm^3
+      * WBC by Manual count 804-5 10^9/L = k/mm^3
 v  Microbiology LP31755-9
 
 Reagin Ab LP39544-9
