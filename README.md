@@ -25,7 +25,7 @@ Initial version, with various bug fixes.
 The project also provides demographics and vital signs concept hierarchies that were created by the Eureka! Clinical team, borrowing heavily from the demo data ontology from the i2b2 distribution.
 
 ## Extensions to the i2b2 metadata schema
-Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See `/src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml` for database-agnostic DDL for these extensions.
+Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml` for database-agnostic DDL for these extensions.
 
 ### Ontology tables
 Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with the same length as C_FULLNAME. We also index the column. 
@@ -43,3 +43,6 @@ A temporary table to caching Eureka! Clinical property information during retrie
 There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
 * [from the command line](http://www.liquibase.org/documentation/command_line.html)
 * [using maven](http://www.liquibase.org/documentation/maven/index.html).
+
+## Getting help
+Feel free to contact us at help@eurekaclinical.org.
