@@ -34,10 +34,10 @@ Eureka! Clinical ontology tables contain one additional column over stock i2b2, 
 #### EK_MODIFIER_INTERP
 When i2b2 modifiers are specified as records in an i2b2 metadata table, there is insufficient metadata for Eureka! Clinical to map a modifier to a Eureka! Clinical property. The EK_MODIFIER_INTERP table annotates such modifier records to indicate the modifier to which they belong.
 #### EK_TEMP_UNIQUE_IDS
-A temporary table for caching EK_UNIQUE_ID values during retrieval of metadata.
+A temporary table for caching EK_UNIQUE_ID values during retrieval of metadata. Should be cleared at the end of transactions.
 
 #### EK_TEMP_PROPERTIES
-A temporary table to caching Eureka! Clinical property information during retrieval of metadata.
+A temporary table to caching Eureka! Clinical property information during retrieval of metadata. Should be cleared at the end of sessions.
 
 ## Running liquibase with the changelog files
 There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
