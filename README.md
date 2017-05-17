@@ -2,7 +2,7 @@
 [Atlanta Clinical and Translational Science Institute (ACTSI)](http://www.actsi.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 ## What does it do?
-It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It specifies a data model and set of terminologies. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions (in `src/main/resources/dbmigration`).
+It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It specifies an electronic health record data model and set of terminologies. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions (in `src/main/resources/dbmigration`).
 
 ## Version 2 development series
 Includes changes to the metadata schema to support improved performance of SQL statements to retrieve concepts. We also plan to update all of our terminologies to the latest versions.
@@ -29,6 +29,9 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
     <version>version</version>
 </dependency>
 ```
+
+## Data model
+The electronic health recor data model is described at https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Data%20model.md.
 
 ## Terminologies provided
 | Name | Version | Source |
