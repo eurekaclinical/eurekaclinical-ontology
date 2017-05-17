@@ -11,8 +11,8 @@ Includes changes to the metadata schema to support improved performance of SQL s
 Initial version, with various bug fixes.
 
 ## Requirements
-* Java 8
-* Liquibase 3.3 or greater, available from http://www.liquibase.org/download/index.html
+* [Oracle Java JRE 8](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+* [Liquibase 3.3 or greater](http://www.liquibase.org/download/index.html)
 
 ## Terminologies provided
 * ICD9-CM diagnosis codes
