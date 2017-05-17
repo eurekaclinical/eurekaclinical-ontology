@@ -139,7 +139,7 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
       update
 ```
 
-## Add breakdown paths to the data schema
+## Adding breakdown paths to the data schema
 Assuming you already have an i2b2 data schema, run the following:
 ```
 ./liquibase \
