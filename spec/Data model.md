@@ -115,6 +115,9 @@ Tracking Codes for Performance Management …
 ### Visits
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
 |------------|-----------|-------------------------------------------------------------------|---------------------|
+| ADMIT_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Date and time of visit or admission. An Age at visit field will be calculated from this. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
+| DISCHARGE_DATE | Date-time field | YYYY-MM-DD HH:MM:SS | Date and time of discharge. A Length of stay field will be calculated from this. If times don’t exist in the source data, set HH:MM:SS to 00:00:00. |
+| VISIT_TYPE | TEXT(2) | IP=Inpatient Hospital Stay<br/>AV=Ambulatory Visit<br/>ED=Emergency Department<br/>OA=Other Ambulatory Visit<br/>NI=No information | Visit type. |
 
 ### Medication orders
 | Field name | Data type | Predefined value sets and descriptive text for categorical fields | Definition/comments |
