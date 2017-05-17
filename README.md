@@ -33,8 +33,8 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 ## Terminologies provided
 | Name | Version | Source |
 |------|---------|--------|
-| ICD9-CM diagnosis codes | | |
-| ICD9 procedure codes | | |
+| ICD9-CM diagnosis codes | | Analytic Information Warehouse project, circa 2010 |
+| ICD9 procedure codes | | Analytic Information Warehouse project, circa 2010 |
 | ICD10-CM diagnosis codes | 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
 | ICD10-PCS procedure codes | 2015 | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
 | NCATS ACT lab test hierarchy (LOINC codes) | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
