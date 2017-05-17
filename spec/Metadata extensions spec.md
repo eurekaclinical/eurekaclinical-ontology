@@ -1,6 +1,6 @@
 
 # Extensions to the i2b2 metadata schema
-Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml for database-agnostic DDL for these extensions.
+Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema. See the [i2b2 metaschema changelog](https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml) for database-agnostic DDL for these extensions.
 
 ## Ontology tables
 Eureka! Clinical ontology tables contain one additional column over stock i2b2, EK_UNIQUE_ID, which is a VARCHAR with length 700. It is expected to be globally unique. We also index the column. 
