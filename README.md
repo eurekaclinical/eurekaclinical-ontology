@@ -10,9 +10,25 @@ Includes changes to the metadata schema to support improved performance of SQL s
 ## Version 1.2
 Initial version, with various bug fixes.
 
-## Requirements
+## Build requirements
+* [Oracle Java JDK 8](http://www.oracle.com/technetwork/java/javase/overview/index.html)
+* [Maven 3.2.5 or greater](https://maven.apache.org)
+
+## Runtime requirements
 * [Oracle Java JRE 8](http://www.oracle.com/technetwork/java/javase/overview/index.html)
 * [Liquibase 3.3 or greater](http://www.liquibase.org/download/index.html)
+
+## Building it
+The project uses the maven build tool. Typically, you build it by invoking `mvn clean install` at the command line. For simple file changes, not additions or deletions, you can usually use `mvn install`. See https://github.com/eurekaclinical/dev-wiki/wiki/Building-Eureka!-Clinical-projects for more details.
+
+## Maven dependency
+```
+<dependency>
+    <groupId>org.eurekaclinical</groupId>
+    <artifactId>eurekaclinical-ontology</artifactId>
+    <version>version</version>
+</dependency>
+```
 
 ## Terminologies provided
 * ICD9-CM diagnosis codes 
