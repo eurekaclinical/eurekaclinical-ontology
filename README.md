@@ -17,9 +17,33 @@ Initial version, with various bug fixes.
 ## Runtime requirements
 * [Oracle Java JRE 8](http://www.oracle.com/technetwork/java/javase/overview/index.html)
 * [Liquibase 3.3 or greater](http://www.liquibase.org/download/index.html)
+* One of the following relational databases:
+  * [Oracle](https://www.oracle.com/database/index.html) 11g or greater
+  * [PostgreSQL](https://www.postgresql.org) 9.1 or greater
+  * [H2](http://h2database.com) 1.4.193 or greater (for testing)
 
 ## Building it
 The project uses the maven build tool. Typically, you build it by invoking `mvn clean install` at the command line. For simple file changes, not additions or deletions, you can usually use `mvn install`. See https://github.com/eurekaclinical/dev-wiki/wiki/Building-Eureka!-Clinical-projects for more details.
+
+## Adding the Eureka! Clinical extensions to an i2b2 metadata schema
+A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml`. Perform the following steps:
+1) Create a new schema and a user account for accessing the schema.
+2) Get a JDBC driver for your database and put it the liquibase lib directory.
+3) Run the following from the liquibase installation:
+```
+./liquibase \
+      --driver=JDBC_DRIVER_CLASS_NAME \
+      --classpath=/path/to/jdbcdriver.jar:/path/to/eurekaclinical-ontology-<version>.jar \
+      --changeLogFile=dbmigration/i2b2-meta-schema-changelog.xml \
+      --url="JDBC_CONNECTION_URL" \
+      --username=DB_USER \
+      --password=DB_PASS \
+      update
+```
+
+## Installing the terminologies
+Liquibase changelogs for each terminology are provided in src/main/resources/dbmigration/ for loading the terminologies into a database. Liquibase 3.3 or greater is required. A suitable copy of Liquibase is provided in the i2b2-export-package module. Perform the following steps:
+1) Create an i2b2 1.7 metadata schema.
 
 ## Maven dependency
 ```
