@@ -1,5 +1,5 @@
 # Eureka! Clinical Ontology Installation Files
-Atlanta Clinical and Translational Science Institute (ACTSI), Emory University, Atlanta, GA
+[Atlanta Clinical and Translational Science Institute (ACTSI)](http://www.actsi.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 ## What does it do?
 It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions.
