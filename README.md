@@ -39,8 +39,8 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 | ICD10-PCS procedure codes | | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
 | NCATS ACT lab test hierarchy (LOINC codes) | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
 | NCATS ACT NDF-RT/RxNorm hierarchy | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
-
-The project also provides demographics and vital signs concept hierarchies that were created by the Eureka! Clinical team, borrowing heavily from the demo data ontology from the i2b2 distribution.
+| Demographics | 1.0 | Locally developed, based on the i2b2 1.5 demo data ontology |
+| Vital signs | | Locally developed |
 
 ## Extensions to the i2b2 metadata schema
 See [Metadata extensions spec.md](https://github.com/eurekaclinical/eurekaclinical-ontology/blob/master/spec/Metadata%20extensions%20spec.md).
