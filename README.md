@@ -22,7 +22,7 @@ Initial version, with various bug fixes.
 * The Lab test hierarchy (LOINC codes) in the ACT ontology version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
 * The NDF-RT/RxNorm hierarchy in the ACT ontology version version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
 
-The project also provides customized demographics and vital signs concepts.
+The project also provides demographics and vital signs concept hierarchies that were created by the Eureka! Clinical team, borrowing heavily from the demo data ontology from the i2b2 distribution.
 
 ## Extensions to the i2b2 metadata schema
 Eureka! Clinical's extensions to the i2b2 metadata schema start from the i2b2 version 1.7 metadata schema.
