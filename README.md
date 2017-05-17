@@ -26,10 +26,9 @@ Initial version, with various bug fixes.
 The project uses the maven build tool. Typically, you build it by invoking `mvn clean install` at the command line. For simple file changes, not additions or deletions, you can usually use `mvn install`. See https://github.com/eurekaclinical/dev-wiki/wiki/Building-Eureka!-Clinical-projects for more details.
 
 ## Adding the Eureka! Clinical extensions to an i2b2 metadata schema
-A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml`. Perform the following steps:
-1) Create a new schema and a user account for accessing the schema.
-2) Get a JDBC driver for your database and put it the liquibase lib directory.
-3) Run the following from the liquibase installation:
+A Liquibase changelog is provided at `src/main/resources/dbmigration/i2b2-meta-schema-changelog.xml`. We assume that the i2b2 metadata schema of interest is already created. Perform the following steps:
+1) Get a JDBC driver for your database and put it the liquibase lib directory.
+2) Run the following from the liquibase installation:
 ```
 ./liquibase \
       --driver=JDBC_DRIVER_CLASS_NAME \
