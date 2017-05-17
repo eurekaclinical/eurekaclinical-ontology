@@ -15,10 +15,10 @@ Initial version, with various bug fixes.
 * [Liquibase 3.3 or greater](http://www.liquibase.org/download/index.html)
 
 ## Terminologies provided
-* ICD9-CM diagnosis codes
+* ICD9-CM diagnosis codes 
 * ICD9 procedure codes
-* ICD10-CM diagnosis codes
-* ICD10-PCS procedure codes
+* ICD10-CM diagnosis codes from the UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org)
+* ICD10-PCS procedure codes from the UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org)
 * The Lab test hierarchy (LOINC codes) in the ACT ontology version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
 * The NDF-RT/RxNorm hierarchy in the ACT ontology version version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
 
