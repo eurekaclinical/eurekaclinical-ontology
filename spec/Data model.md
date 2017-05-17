@@ -339,77 +339,74 @@ Laboratory test hierarchy (test name, specimen type, LOINC code, units)
     * WBC Count LP7720-8
       * WBC by Automated count 6690-2 10^9/L = k/mm^3
       * WBC by Manual count 804-5 10^9/L = k/mm^3
-v  Microbiology LP31755-9
-
-Reagin Ab LP39544-9
-Reagin Ab in CSF LP47110-9
-Reagin Ab in CSF [presence] 22459-2 present/absent/indeterminate
-Reagin Ab in CSF by VDRL [presence] 5290-2 present/absent/indeterminate
-Reagin Ab in CSF [concentration] 22460-0 U/L
-Reagin Ab in CSF by VDRL [concentration] 5289-4 U/L
-Reagin Ab in CSF [titer] 46203-6 titer
-Reagin Ab in CSF by VDRL [titer] 31146-4 titer
-Reagin Ab in serum LP41330-9
-Reagin Ab in Serum [presence] 22461-8 present/absent/indeterminate
-Reagin Ab in Serum by RPR [presence] 20507-0 present/absent/indeterminate
-Reagin Ab in Serum by VDRL [presence] 5292-8 present/absent/indeterminate
-Reagin Ab in Serum [concentration] 22462-6 U/L
-Reagin Ab in Serum by RPR [concentration] 20508-8 U/L
-Reagin Ab in Serum by VDRL [concentration] 5291-0 U/L
-Reagin Ab in Serum [titer] 11084-1 titer
-Reagin Ab in Serum by RPR [titer] 31147-2 titer
-Reagin Ab in Serum by VDRL [titer] 50690-7 titer
-Tuberculosis Interferon LP18171-6
-Mycobacterium tuberculosis Mitogen stimulated gamma interferon LP71013-4
-Mycobacterium tuberculosis Mitogen stimulated gamma interferon in Blood [concentration] 39017-9 IU/mL
-Mycobacterium tuberculosis Mitogen stimulated gamma interferon in Blood [presence] 45323-3 present/absent/indeterminate
-Mycobacterium tuberculosis stimulated gamma interferon LP149695-1
-Mycobacterium tuberculosis stimulated gamma interferon in Blood [concentration] 46217-6 IU/mL
-Mycobacterium tuberculosis stimulated gamma interferon in Blood [presence] 71773-6 present/absent/indeterminate
-v  Urinalysis LP32744-2
-
-Protein in Urine 2888-6 mg/dL
-Protein in Urine by Test strip [presence] 20454-5 present/absent/indeterminate
-Protein in 24 hour Urine [g] 2889-4 g/24H
-Protein in 24 hour Urine [mg] 21482-5 mg/dL
-v  Virus LP14855-8
-
-Hepatitis B virus LP14306-2
-Hepatitis B virus core LP66853-0
-Hepatitis B virus core in Serum [presence] 51914-0 present/absent/indeterminate
-Hepatitis B virus surface Ab LP41149-3
-Hepatitis B virus surface Ab in Serum [presence] 22322-2 present/absent/indeterminate
-Hepatitis B virus surface Ab in Serum by Immunoassay [presence] 10900-9 present/absent/indeterminate
-Hepatitis B virus surface Ab in Serum [concentration] 16935-9 mIU/mL
-Hepatitis B virus surface Ab in Serum by Immunoassay [concentration] 5193-8 mIU/mL
-Hepatitis B virus surface Ag LP54058-0
-Hepatitis B virus surface Ag in Serum [presence] 5195-3 present/absent/indeterminate
-Hepatitis B virus surface Ag in Serum by Immunoassay [presence] 5196-1 present/absent/indeterminate
-Hepatitis B virus surface Ag in Serum [concentration] 58452-4 mIU/mL
-Hepatitis B virus surface Ag in Serum by Immunoassay [concentration] 63557-3 mIU/mL
-Hepatitis C virus LP14400-3
-Hepatitis C virus Ab LP38332-0
-Hepatitis C virus Ab in Serum [presence] 16128-1 present/absent/indeterminate
-Hepatitis C virus Ab in Serum by Immunoassay [presence] 13955-0 present/absent/indeterminate
-Hepatitis C virus Ab in Serum by Immunoblot [presence] 5199-5 [presence] present/absent/indeterminate
-Hepatitis C virus Ab in Serum by Rapid immunoassay [presence] 72376-7 present/absent/indeterminate
-Hepatitis C virus Ab in Serum [concentration] 22327-1 U/L
-Hepatitis C virus Ab in Serum by Immunoassay [concentration] 5198-7 U/L
-HIV LP17126-1
-HIV 1 Ab LP42700-2
-HIV 1 Ab in Serum [presence] 7917-8 present/absent/indeterminate
-HIV 1 Ab in Serum by Immunoassay [presence] 29893-5 present/absent/indeterminate
-HIV 1 Ab in Serum by Immunoblot [presence] 5221-7 present/absent/indeterminate
-HIV 1 Ab in Serum by Immunofluorescence [presence] 14092-1 present/absent/indeterminate
-HIV 1 Ab in Serum, Plasma or Blood by Rapid immunoassay [presence] 68961-2 present/absent/indeterminate
-HIV 1 Ab in Serum [concentration] 22356-0 U/L
-HIV 1 Ab in Serum by Immunoassay [concentration] 5220-9 U/L
-HIV 1 Ab in Serum by Immunofluorescence [concentration] 43599-0 U/L
-HIV 2 Ab LP47065-5
-HIV 2 Ab in Serum [presence] 7919-4 present/absent/indeterminate
-HIV 2 Ab in Serum by Immunoassay [presence] 30361-0 present/absent/indeterminate
-HIV 2 Ab in Serum by Immunoblot [presence] 5225-8 present/absent/indeterminate
-HIV 2 Ab in Serum [concentration] 22358-6 U/L
-HIV 2 Ab in Serum by Immunoassay [concentration] 5224-1 U/L
-HIV DNA LP55190-0
-HIV DNA by Probe with amplification [presence] 9836-8 present/absent/indeterminate
+* Microbiology LP31755-9
+  * Reagin Ab LP39544-9
+    * Reagin Ab in CSF LP47110-9
+      * Reagin Ab in CSF [presence] 22459-2 present/absent/indeterminate
+      * Reagin Ab in CSF by VDRL [presence] 5290-2 present/absent/indeterminate
+      * Reagin Ab in CSF [concentration] 22460-0 U/L
+      * Reagin Ab in CSF by VDRL [concentration] 5289-4 U/L
+      * Reagin Ab in CSF [titer] 46203-6 titer
+      * Reagin Ab in CSF by VDRL [titer] 31146-4 titer
+    * Reagin Ab in serum LP41330-9
+      * Reagin Ab in Serum [presence] 22461-8 present/absent/indeterminate
+      * Reagin Ab in Serum by RPR [presence] 20507-0 present/absent/indeterminate
+      * Reagin Ab in Serum by VDRL [presence] 5292-8 present/absent/indeterminate
+      * Reagin Ab in Serum [concentration] 22462-6 U/L
+      * Reagin Ab in Serum by RPR [concentration] 20508-8 U/L
+      * Reagin Ab in Serum by VDRL [concentration] 5291-0 U/L
+      * Reagin Ab in Serum [titer] 11084-1 titer
+      * Reagin Ab in Serum by RPR [titer] 31147-2 titer
+      * Reagin Ab in Serum by VDRL [titer] 50690-7 titer
+  * Tuberculosis Interferon LP18171-6
+    * Mycobacterium tuberculosis Mitogen stimulated gamma interferon LP71013-4
+      * Mycobacterium tuberculosis Mitogen stimulated gamma interferon in Blood [concentration] 39017-9 IU/mL
+      * Mycobacterium tuberculosis Mitogen stimulated gamma interferon in Blood [presence] 45323-3 present/absent/indeterminate
+    * Mycobacterium tuberculosis stimulated gamma interferon LP149695-1
+      * Mycobacterium tuberculosis stimulated gamma interferon in Blood [concentration] 46217-6 IU/mL
+      * Mycobacterium tuberculosis stimulated gamma interferon in Blood [presence] 71773-6 present/absent/indeterminate
+* Urinalysis LP32744-2
+  * Protein in Urine 2888-6 mg/dL
+  * Protein in Urine by Test strip [presence] 20454-5 present/absent/indeterminate
+  * Protein in 24 hour Urine [g] 2889-4 g/24H
+  * Protein in 24 hour Urine [mg] 21482-5 mg/dL
+* Virus LP14855-8
+  * Hepatitis B virus LP14306-2
+    * Hepatitis B virus core LP66853-0
+      * Hepatitis B virus core in Serum [presence] 51914-0 present/absent/indeterminate
+    * Hepatitis B virus surface Ab LP41149-3
+      * Hepatitis B virus surface Ab in Serum [presence] 22322-2 present/absent/indeterminate
+      * Hepatitis B virus surface Ab in Serum by Immunoassay [presence] 10900-9 present/absent/indeterminate
+      * Hepatitis B virus surface Ab in Serum [concentration] 16935-9 mIU/mL
+      * Hepatitis B virus surface Ab in Serum by Immunoassay [concentration] 5193-8 mIU/mL
+  * Hepatitis B virus surface Ag LP54058-0
+    * Hepatitis B virus surface Ag in Serum [presence] 5195-3 present/absent/indeterminate
+    * Hepatitis B virus surface Ag in Serum by Immunoassay [presence] 5196-1 present/absent/indeterminate
+    * Hepatitis B virus surface Ag in Serum [concentration] 58452-4 mIU/mL
+    * Hepatitis B virus surface Ag in Serum by Immunoassay [concentration] 63557-3 mIU/mL
+  * Hepatitis C virus LP14400-3
+    * Hepatitis C virus Ab LP38332-0
+      * Hepatitis C virus Ab in Serum [presence] 16128-1 present/absent/indeterminate
+      * Hepatitis C virus Ab in Serum by Immunoassay [presence] 13955-0 present/absent/indeterminate
+      * Hepatitis C virus Ab in Serum by Immunoblot [presence] 5199-5 [presence] present/absent/indeterminate
+      * Hepatitis C virus Ab in Serum by Rapid immunoassay [presence] 72376-7 present/absent/indeterminate
+      * Hepatitis C virus Ab in Serum [concentration] 22327-1 U/L
+      * Hepatitis C virus Ab in Serum by Immunoassay [concentration] 5198-7 U/L
+  * HIV LP17126-1
+    * HIV 1 Ab LP42700-2
+      * HIV 1 Ab in Serum [presence] 7917-8 present/absent/indeterminate
+      * HIV 1 Ab in Serum by Immunoassay [presence] 29893-5 present/absent/indeterminate
+      * HIV 1 Ab in Serum by Immunoblot [presence] 5221-7 present/absent/indeterminate
+      * HIV 1 Ab in Serum by Immunofluorescence [presence] 14092-1 present/absent/indeterminate
+      * HIV 1 Ab in Serum, Plasma or Blood by Rapid immunoassay [presence] 68961-2 present/absent/indeterminate
+      * HIV 1 Ab in Serum [concentration] 22356-0 U/L
+      * HIV 1 Ab in Serum by Immunoassay [concentration] 5220-9 U/L
+      * HIV 1 Ab in Serum by Immunofluorescence [concentration] 43599-0 U/L
+    * HIV 2 Ab LP47065-5
+      * HIV 2 Ab in Serum [presence] 7919-4 present/absent/indeterminate
+      * HIV 2 Ab in Serum by Immunoassay [presence] 30361-0 present/absent/indeterminate
+      * HIV 2 Ab in Serum by Immunoblot [presence] 5225-8 present/absent/indeterminate
+      * HIV 2 Ab in Serum [concentration] 22358-6 U/L
+      * HIV 2 Ab in Serum by Immunoassay [concentration] 5224-1 U/L
+    * HIV DNA LP55190-0
+      * HIV DNA by Probe with amplification [presence] 9836-8 present/absent/indeterminate
