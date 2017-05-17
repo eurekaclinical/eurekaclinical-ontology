@@ -31,12 +31,14 @@ The project uses the maven build tool. Typically, you build it by invoking `mvn 
 ```
 
 ## Terminologies provided
-* ICD9-CM diagnosis codes 
-* ICD9 procedure codes
-* ICD10-CM diagnosis codes from the UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org)
-* ICD10-PCS procedure codes from the UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org)
-* The Lab test hierarchy (LOINC codes) in the ACT ontology version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
-* The NDF-RT/RxNorm hierarchy in the ACT ontology version version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
+| Name | Version | Source |
+|------|---------|--------|
+| ICD9-CM diagnosis codes | | |
+| ICD9 procedure codes | | |
+| ICD10-CM diagnosis codes | | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
+| ICD10-PCS procedure codes | | UMLS 2015AA release, obtained from the [NCBO BioPortal Ontology to i2b2 File Mappings page](http://i2b2.bioontology.org) |
+| NCATS ACT lab test hierarchy (LOINC codes) | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
+| NCATS ACT NDF-RT/RxNorm hierarchy | 1.3 | https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization |
 
 The project also provides demographics and vital signs concept hierarchies that were created by the Eureka! Clinical team, borrowing heavily from the demo data ontology from the i2b2 distribution.
 
