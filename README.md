@@ -23,3 +23,6 @@ Initial version, with various bug fixes.
 * The NDF-RT/RxNorm hierarchy in the ACT ontology version version 1.3 from https://ncatswiki.dbmi.pitt.edu/acts/wiki/DataHarmonization
 
 # Running liquibase with the changelog files
+There are two ways to run liquibase on Eureka! Clinical project, both described in the [liquibase documentation](http://www.liquibase.org/documentation/index.html):
+* [from the command line](http://www.liquibase.org/documentation/command_line.html)
+* [using maven](http://www.liquibase.org/documentation/maven/index.html).
