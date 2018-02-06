@@ -184,7 +184,6 @@ limitations under the License.
     </changeSet>
     <changeSet author="arpost" id="META-11" dbms="oracle">
         <createProcedure>
-            [
             CREATE OR REPLACE PACKAGE EUREKACLINICAL
             AS
                 PROCEDURE EC_CLEAR_C_TOTALNUM() ;
