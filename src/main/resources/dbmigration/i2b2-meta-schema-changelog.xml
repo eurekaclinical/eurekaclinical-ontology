@@ -184,15 +184,15 @@ limitations under the License.
     </changeSet>
     <changeSet author="arpost" id="META-11" dbms="oracle">
         <createProcedure>
-            CREATE OR REPLACE PACKAGE EUREKACLINICAL
+            CREATE OR REPLACE PACKAGE ECMETA
             AS
                 PROCEDURE EC_CLEAR_C_TOTALNUM() ;
                 PROCEDURE EC_UPDATE_C_TOTALNUM(dataSchemaName IN VARCHAR) ;
                 PROCEDURE EC_PROCESS_METADATA() ;
-            END EUREKACLINICAL ;
+            END ECMETA ;
         </createProcedure>
         <createProcedure>
-            CREATE OR REPLACE PACKAGE BODY EUREKACLINICAL
+            CREATE OR REPLACE PACKAGE BODY ECMETA
             AS
             
             PROCEDURE EC_CLEAR_C_TOTALNUM()
@@ -261,16 +261,17 @@ limitations under the License.
                     ROLLBACK;
                 raise_application_error(-20001,'An error was encountered - '||SQLCODE||' -ERROR- '||SQLERRM);       
             END EC_PROCESS_METADATA;
-            END EUREKACLINICAL ;
+            END ECMETA ;
         </createProcedure>
         <rollback>
-            DROP PACKAGE EUREKACLINICAL;
+            DROP PACKAGE ECMETA;
         </rollback>
     </changeSet>
     <changeSet author="arpost" id="META-12" dbms="postgresql">
-        <sql>CREATE SCHEMA IF NOT EXISTS EUREKACLINICAL;</sql>
+        <!--Assumes that the EUREKACLINICAL schema exists and the
+	    i2b2 metadata user has been granted access to it. -->
         <createProcedure>
-            CREATE OR REPLACE FUNCTION EUREKACLINICAL.EC_CLEAR_C_TOTALNUM() RETURNS VOID AS $body$
+            CREATE OR REPLACE FUNCTION ECMETA.EC_CLEAR_C_TOTALNUM() RETURNS VOID AS $body$
             BEGIN
                 FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
                 LOOP
@@ -286,7 +287,7 @@ limitations under the License.
             LANGUAGE PLPGSQL
         </createProcedure>
         <createProcedure>
-            CREATE OR REPLACE FUNCTION EUREKACLINICAL.EC_UPDATE_C_TOTALNUM(dataSchemaName text) RETURNS VOID AS $body$
+            CREATE OR REPLACE FUNCTION ECMETA.EC_UPDATE_C_TOTALNUM(dataSchemaName text) RETURNS VOID AS $body$
             BEGIN
                 FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
                 LOOP
@@ -313,7 +314,7 @@ limitations under the License.
             LANGUAGE PLPGSQL
         </createProcedure>
         <createProcedure>
-            CREATE OR REPLACE FUNCTION EUREKACLINICAL.EC_PROCESS_METADATA() RETURNS VOID AS $body$
+            CREATE OR REPLACE FUNCTION ECMETA.EC_PROCESS_METADATA() RETURNS VOID AS $body$
             BEGIN
                 DELETE FROM EK_TEMP_PROPERTIES;
                 FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
@@ -343,10 +344,9 @@ limitations under the License.
             LANGUAGE PLPGSQL
         </createProcedure>
         <rollback>
-            DROP FUNCTION IF EXISTS EUREKACLINICAL.EC_CLEAR_C_TOTALNUM;
-            DROP FUNCTION IF EXISTS EUREKACLINICAL.EC_UPDATE_C_TOTALNUM;
-            DROP FUNCTION IF EXISTS EUREKACLINICAL.EC_PROCESS_METADATA;
-	    DROP SCHEMA IF EXISTS EUREKACLINICAL;
+            DROP FUNCTION IF EXISTS ECMETA.EC_CLEAR_C_TOTALNUM;
+            DROP FUNCTION IF EXISTS ECMETA.EC_UPDATE_C_TOTALNUM;
+            DROP FUNCTION IF EXISTS ECMETA.EC_PROCESS_METADATA;
         </rollback>
     </changeSet>
 </databaseChangeLog>
