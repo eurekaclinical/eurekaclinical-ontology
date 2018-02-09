@@ -332,7 +332,7 @@ limitations under the License.
                     ' || theRow.C_TABLE_NAME || ' a2
                     JOIN ' || theRow.C_TABLE_NAME || ' a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '''' AND a3.C_SYNONYM_CD=''N'')
                     WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH  &lt;&gt; ''@'' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = ''N''
-                    AND NOT EXISTS (SELECT * FROM EK_MED_ORDERS aa1
+                    AND NOT EXISTS (SELECT * FROM ' || theRow.C_TABLE_NAME || ' aa1
                     WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''''
                     AND a3.c_hlevel &gt; aa1.c_hlevel))
                     UNION ALL
