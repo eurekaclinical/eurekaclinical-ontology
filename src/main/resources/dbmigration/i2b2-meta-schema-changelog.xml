@@ -170,12 +170,13 @@ limitations under the License.
             <column name="M_APPLIED_PATH" type="VARCHAR(700)">
                 <constraints nullable="false"/>
             </column>
+	    <column name="DECLARING_CONCEPT_ID" type="VARCHAR(50)">
+	        <constraints nullable="false"/>
+	    </column>
             <column name="C_NAME" type="VARCHAR(2000)">
                 <constraints nullable="false"/>
             </column>
-            <column name="VALUETYPE_CD" type="VARCHAR(50)">
-                <constraints nullable="false"/>
-            </column>
+            <column name="VALUETYPE_CD" type="VARCHAR(50)"/>
             <column name="PROPERTYNAME" type="VARCHAR2(255)">
                 <constraints nullable="false"/>
             </column>
@@ -198,8 +199,12 @@ limitations under the License.
             PROCEDURE EC_CLEAR_C_TOTALNUM()
             IS 
             BEGIN
-                EXECUTE IMMEDIATE 'UPDATE ' || tableName || ' SET C_TOTALNUM=NULL';
-                COMMIT;
+	        cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS;
+                FOR tableName IN c1
+                LOOP
+                    EXECUTE IMMEDIATE 'UPDATE ' || tableName || ' SET C_TOTALNUM=NULL';
+                    COMMIT;
+		END LOOP;
             EXCEPTION
                 WHEN OTHERS THEN
                     ROLLBACK;
@@ -209,7 +214,7 @@ limitations under the License.
             PROCEDURE EC_UPDATE_C_TOTALNUM(dataSchemaName IN VARCHAR)
             IS 
             BEGIN
-                cursor c1 is SELECT TABLE_NAME FROM TABLE_ACCESS;
+                cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS;
                 FOR tableName IN c1
                 LOOP
                     EXECUTE IMMEDIATE 'UPDATE ' || tableName || ' a3
@@ -232,11 +237,11 @@ limitations under the License.
                 raise_application_error(-20001,'An error was encountered - '||SQLCODE||' -ERROR- '||SQLERRM);       
             END EC_UPDATE_C_TOTALNUM;
 
-            PROCEDURE EC_PROCESS_METADATA()
+            PROCEDURE EC_PROCESS_METADATA(metaTableName IN VARCHAR)
             IS 
             BEGIN
                 EXECUTE IMMEDIATE 'DELETE FROM EK_TEMP_PROPERTIES';
-                cursor c1 is SELECT TABLE_NAME FROM TABLE_ACCESS;
+                cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS WHERE C_TABLE_NAME &lt;&gt; metaTableName;
                 FOR tableName IN c1
                 LOOP
                     EXECUTE IMMEDIATE 'INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
@@ -272,13 +277,13 @@ limitations under the License.
 	    i2b2 metadata user has been granted access to it. -->
         <createProcedure>
             CREATE OR REPLACE FUNCTION ECMETA.EC_CLEAR_C_TOTALNUM() RETURNS VOID AS $body$
+	    DECLARE
+	        theRow RECORD;
             BEGIN
-                FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
+                FOR theRow IN SELECT C_TABLE_NAME FROM TABLE_ACCESS
                 LOOP
-                    EXECUTE 'UPDATE ' || tableName || ' SET C_TOTALNUM=NULL';
-                    COMMIT;
+                    EXECUTE 'UPDATE ' || theRow.C_TABLE_NAME || ' SET C_TOTALNUM=NULL';
                 END LOOP;
-                COMMIT;
             EXCEPTION
                 WHEN OTHERS THEN
                 RAISE EXCEPTION 'An error was encountered - % -ERROR- %',SQLSTATE,SQLERRM;
@@ -288,10 +293,12 @@ limitations under the License.
         </createProcedure>
         <createProcedure>
             CREATE OR REPLACE FUNCTION ECMETA.EC_UPDATE_C_TOTALNUM(dataSchemaName text) RETURNS VOID AS $body$
-            BEGIN
-                FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
+	    DECLARE
+	        theRow RECORD;
+	    BEGIN
+                FOR theRow IN SELECT TABLE_NAME FROM TABLE_ACCESS
                 LOOP
-                    EXECUTE 'UPDATE ' || tableName || ' a3
+                    EXECUTE 'UPDATE ' || theRow.TABLE_NAME || ' a3
                     SET a3.c_totalnum =
                     (SELECT COUNT(DISTINCT patient_num)
                     FROM ' || dataSchemaName || '.observation_fact a1
@@ -303,9 +310,7 @@ limitations under the License.
                     AND UPPER(a3.c_tablename)=''CONCEPT_DIMENSION''
                     AND UPPER(a3.c_columnname)=''CONCEPT_PATH''
                     AND a3.c_columndatatype=''T''';
-                    COMMIT;
                 END LOOP;
-                COMMIT;
             EXCEPTION
                 WHEN OTHERS THEN
                     RAISE EXCEPTION 'An error was encountered - % -ERROR- %',SQLSTATE,SQLERRM;
@@ -314,28 +319,29 @@ limitations under the License.
             LANGUAGE PLPGSQL
         </createProcedure>
         <createProcedure>
-            CREATE OR REPLACE FUNCTION ECMETA.EC_PROCESS_METADATA() RETURNS VOID AS $body$
-            BEGIN
+            CREATE OR REPLACE FUNCTION ECMETA.EC_PROCESS_METADATA(metaTableName text) RETURNS VOID AS $body$
+	    DECLARE
+	        theRow RECORD;
+	    BEGIN
                 DELETE FROM EK_TEMP_PROPERTIES;
-                FOR tableName IN SELECT TABLE_NAME FROM TABLE_ACCESS
+                FOR theRow IN SELECT C_TABLE_NAME FROM TABLE_ACCESS WHERE C_TABLE_NAME &lt;&gt; metaTableName
                 LOOP
                     EXECUTE 'INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
                     (SELECT EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, DISPLAYNAME C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML FROM
                     ((SELECT a2.EK_UNIQUE_ID, a2.M_APPLIED_PATH, a3.EK_UNIQUE_ID DECLARING_CONCEPT_ID, a2.C_NAME DISPLAYNAME, a2.VALUETYPE_CD, a2.C_BASECODE PROPERTYNAME, a2.C_METADATAXML FROM
-                    ' || tableName || ' a2
-                    JOIN ' || tableName || ' a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '' AND a3.C_SYNONYM_CD=''N'')
+                    ' || theRow.C_TABLE_NAME || ' a2
+                    JOIN ' || theRow.C_TABLE_NAME || ' a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '''' AND a3.C_SYNONYM_CD=''N'')
                     WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH  &lt;&gt; ''@'' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = ''N''
                     AND NOT EXISTS (SELECT * FROM EK_MED_ORDERS aa1
-                    WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''
+                    WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''''
                     AND a3.c_hlevel &gt; aa1.c_hlevel))
                     UNION ALL
                     (SELECT NULL, M_APPLIED_PATH, DECLARING_CONCEPT DECLARING_CONCEPT_ID, DISPLAYNAME, NULL, PROPERTYNAME, NULL
                     FROM (SELECT DISTINCT a1.M_APPLIED_PATH, a2.DISPLAYNAME, a2.DECLARING_CONCEPT, a2.PROPERTYNAME FROM
-                    ' || tableName || ' a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = ''N'' and a1.m_applied_path &lt;&gt; ''@'' and a1.c_metadataxml is null) JOIN 
-                    ' || tableName || ' a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path ESCAPE ''
+                    ' || theRow.C_TABLE_NAME || ' a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = ''N'' and a1.m_applied_path &lt;&gt; ''@'' and a1.c_metadataxml is null) JOIN 
+                    ' || theRow.C_TABLE_NAME || ' a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path ESCAPE ''''
                     and a3.c_synonym_cd=''N'' and a3.m_applied_path = ''@'')) U0)) U1);';
                 END LOOP;
-                COMMIT;
             EXCEPTION
                 WHEN OTHERS THEN
                     RAISE EXCEPTION 'An error was encountered - % -ERROR- %',SQLSTATE,SQLERRM;
