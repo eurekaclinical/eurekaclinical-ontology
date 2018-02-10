@@ -187,22 +187,22 @@ limitations under the License.
         <createProcedure>
             CREATE OR REPLACE PACKAGE ECMETA
             AS
-                PROCEDURE EC_CLEAR_C_TOTALNUM() ;
+                PROCEDURE EC_CLEAR_C_TOTALNUM ;
                 PROCEDURE EC_UPDATE_C_TOTALNUM(dataSchemaName IN VARCHAR) ;
-                PROCEDURE EC_PROCESS_METADATA() ;
+                PROCEDURE EC_PROCESS_METADATA(metatablename IN VARCHAR) ;
             END ECMETA ;
         </createProcedure>
         <createProcedure>
             CREATE OR REPLACE PACKAGE BODY ECMETA
             AS
             
-            PROCEDURE EC_CLEAR_C_TOTALNUM()
-            IS 
+            PROCEDURE EC_CLEAR_C_TOTALNUM
+            IS
+	        CURSOR c1 IS SELECT C_TABLE_NAME FROM TABLE_ACCESS;
             BEGIN
-	        cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS;
-                FOR tableName IN c1
+                FOR row IN c1
                 LOOP
-                    EXECUTE IMMEDIATE 'UPDATE ' || tableName || ' SET C_TOTALNUM=NULL';
+                    EXECUTE IMMEDIATE 'UPDATE ' || row.C_TABLE_NAME || ' SET C_TOTALNUM=NULL';
                     COMMIT;
 		END LOOP;
             EXCEPTION
@@ -212,12 +212,12 @@ limitations under the License.
             END EC_CLEAR_C_TOTALNUM;
     
             PROCEDURE EC_UPDATE_C_TOTALNUM(dataSchemaName IN VARCHAR)
-            IS 
+            IS
+	        cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS;
             BEGIN
-                cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS;
-                FOR tableName IN c1
+                FOR row IN c1
                 LOOP
-                    EXECUTE IMMEDIATE 'UPDATE ' || tableName || ' a3
+                    EXECUTE IMMEDIATE 'UPDATE ' || row.C_TABLE_NAME || ' a3
                     SET a3.c_totalnum =
                     (SELECT COUNT(DISTINCT patient_num)
                     FROM ' || dataSchemaName || '.observation_fact a1
@@ -238,27 +238,27 @@ limitations under the License.
             END EC_UPDATE_C_TOTALNUM;
 
             PROCEDURE EC_PROCESS_METADATA(metaTableName IN VARCHAR)
-            IS 
+            IS
+	        cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS WHERE C_TABLE_NAME &lt;&gt; metaTableName;
             BEGIN
-                EXECUTE IMMEDIATE 'DELETE FROM EK_TEMP_PROPERTIES';
-                cursor c1 is SELECT C_TABLE_NAME FROM TABLE_ACCESS WHERE C_TABLE_NAME &lt;&gt; metaTableName;
-                FOR tableName IN c1
+                DELETE FROM EK_TEMP_PROPERTIES;
+                FOR row IN c1
                 LOOP
                     EXECUTE IMMEDIATE 'INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
                 (SELECT EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, DISPLAYNAME C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML FROM
                 ((SELECT a2.EK_UNIQUE_ID, a2.M_APPLIED_PATH, a3.EK_UNIQUE_ID DECLARING_CONCEPT_ID, a2.C_NAME DISPLAYNAME, a2.VALUETYPE_CD, a2.C_BASECODE PROPERTYNAME, a2.C_METADATAXML FROM
-                ' || tableName || ' a2
-                JOIN ' || tableName || ' a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH AND a3.C_SYNONYM_CD=''N'')
+                ' || row.C_TABLE_NAME || ' a2
+                JOIN ' || row.C_TABLE_NAME || ' a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH AND a3.C_SYNONYM_CD=''N'')
                 WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH &lt;&gt; ''@'' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = ''N''
-                AND NOT EXISTS (SELECT * FROM EK_MED_ORDERS aa1
+                AND NOT EXISTS (SELECT * FROM ' || row.C_TABLE_NAME || ' aa1
                 WHERE aa1.c_fullname like a2.m_applied_path
                 AND a3.c_hlevel &gt; aa1.c_hlevel))
                 UNION ALL
                 (SELECT NULL, M_APPLIED_PATH, DECLARING_CONCEPT DECLARING_CONCEPT_ID, DISPLAYNAME, NULL, PROPERTYNAME, NULL
                 FROM (SELECT DISTINCT a1.M_APPLIED_PATH, a2.DISPLAYNAME, a2.DECLARING_CONCEPT, a2.PROPERTYNAME FROM
-                ' || tableName || ' a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = ''N'' and a1.m_applied_path &lt;&gt; ''@'' and a1.c_metadataxml is null) JOIN 
-                ' || tableName || ' a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path
-                and a3.c_synonym_cd=''N'' and a3.m_applied_path = ''@'')) U0)) U1);';
+                ' || row.C_TABLE_NAME || ' a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = ''N'' and a1.m_applied_path &lt;&gt; ''@'' and a1.c_metadataxml is null) JOIN 
+                ' || row.C_TABLE_NAME || ' a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path
+                and a3.c_synonym_cd=''N'' and a3.m_applied_path = ''@'')) U0)) U1)';
                 END LOOP;
                 COMMIT;
             EXCEPTION
