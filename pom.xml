@@ -166,6 +166,67 @@
                 <artifactId>sql-maven-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>populate-ek_temp_properties-table</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <driver>org.h2.Driver</driver>
+                            <url>jdbc:h2:file:${project.build.directory}/classes/eureka-db/eureka-ontology</url>
+                            <sqlCommand>
+INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
+        (SELECT EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, DISPLAYNAME C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML FROM
+        ((SELECT a2.EK_UNIQUE_ID, a2.M_APPLIED_PATH, a3.EK_UNIQUE_ID DECLARING_CONCEPT_ID, a2.C_NAME DISPLAYNAME, a2.VALUETYPE_CD, a2.C_BASECODE PROPERTYNAME, a2.C_METADATAXML FROM
+        EK_ICD9D a2
+        JOIN EK_ICD9D a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '' AND a3.C_SYNONYM_CD='N')
+        WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH  &lt;&gt; '@' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = 'N'
+        AND NOT EXISTS (SELECT * FROM EK_ICD9D aa1
+        WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''
+        AND a3.c_hlevel &gt; aa1.c_hlevel))
+        UNION ALL
+        (SELECT NULL, M_APPLIED_PATH, DECLARING_CONCEPT DECLARING_CONCEPT_ID, DISPLAYNAME, NULL, PROPERTYNAME, NULL
+        FROM (SELECT DISTINCT a1.M_APPLIED_PATH, a2.DISPLAYNAME, a2.DECLARING_CONCEPT, a2.PROPERTYNAME FROM
+        EK_ICD9D a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = 'N' and a1.m_applied_path &lt;&gt; '@' and a1.c_metadataxml is null) JOIN 
+        EK_ICD9D a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path ESCAPE ''
+        and a3.c_synonym_cd='N' and a3.m_applied_path = '@')) U0)) U1);
+COMMIT;
+INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
+        (SELECT EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, DISPLAYNAME C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML FROM
+        ((SELECT a2.EK_UNIQUE_ID, a2.M_APPLIED_PATH, a3.EK_UNIQUE_ID DECLARING_CONCEPT_ID, a2.C_NAME DISPLAYNAME, a2.VALUETYPE_CD, a2.C_BASECODE PROPERTYNAME, a2.C_METADATAXML FROM
+        EK_LABS a2
+        JOIN EK_LABS a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '' AND a3.C_SYNONYM_CD='N')
+        WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH  &lt;&gt;'@' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = 'N'
+        AND NOT EXISTS (SELECT * FROM EK_LABS aa1
+        WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''
+        AND a3.c_hlevel &gt; aa1.c_hlevel))
+        UNION ALL
+        (SELECT NULL, M_APPLIED_PATH, DECLARING_CONCEPT DECLARING_CONCEPT_ID, DISPLAYNAME, NULL, PROPERTYNAME, NULL
+        FROM (SELECT DISTINCT a1.M_APPLIED_PATH, a2.DISPLAYNAME, a2.DECLARING_CONCEPT, a2.PROPERTYNAME FROM
+        EK_LABS a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = 'N' and a1.m_applied_path &lt;&gt; '@' and a1.c_metadataxml is null) JOIN 
+        EK_LABS a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path ESCAPE ''
+        and a3.c_synonym_cd='N' and a3.m_applied_path = '@')) U0)) U1);
+COMMIT;
+INSERT INTO ek_temp_properties (EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML)
+        (SELECT EK_UNIQUE_ID, M_APPLIED_PATH, DECLARING_CONCEPT_ID, DISPLAYNAME C_NAME, VALUETYPE_CD, PROPERTYNAME, C_METADATAXML FROM
+        ((SELECT a2.EK_UNIQUE_ID, a2.M_APPLIED_PATH, a3.EK_UNIQUE_ID DECLARING_CONCEPT_ID, a2.C_NAME DISPLAYNAME, a2.VALUETYPE_CD, a2.C_BASECODE PROPERTYNAME, a2.C_METADATAXML FROM
+        EK_MED_ORDERS a2
+        JOIN EK_MED_ORDERS a3 ON (a3.C_FULLNAME LIKE a2.M_APPLIED_PATH ESCAPE '' AND a3.C_SYNONYM_CD='N')
+        WHERE a2.C_METADATAXML IS NOT NULL AND a2.M_APPLIED_PATH  &lt;&gt; '@' AND a2.C_BASECODE IS NOT NULL AND a2.C_SYNONYM_CD = 'N'
+        AND NOT EXISTS (SELECT * FROM EK_MED_ORDERS aa1
+        WHERE aa1.c_fullname like a2.m_applied_path ESCAPE ''
+        AND a3.c_hlevel &gt; aa1.c_hlevel))
+        UNION ALL
+        (SELECT NULL, M_APPLIED_PATH, DECLARING_CONCEPT DECLARING_CONCEPT_ID, DISPLAYNAME, NULL, PROPERTYNAME, NULL
+        FROM (SELECT DISTINCT a1.M_APPLIED_PATH, a2.DISPLAYNAME, a2.DECLARING_CONCEPT, a2.PROPERTYNAME FROM
+        EK_MED_ORDERS a1 JOIN ek_modifier_interp a2 on (a1.c_basecode=a2.c_basecode and a1.C_SYNONYM_CD = 'N' and a1.m_applied_path &lt;&gt; '@' and a1.c_metadataxml is null) JOIN 
+        EK_MED_ORDERS a3 on (a2.declaring_concept=a3.ek_unique_id AND a3.c_fullname LIKE a1.m_applied_path ESCAPE ''
+        and a3.c_synonym_cd='N' and a3.m_applied_path = '@')) U0)) U1);
+COMMIT;
+                            </sqlCommand>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>analyze-eureka-ontology-schema</id>
                         <phase>process-resources</phase>
                         <goals>
