@@ -4,8 +4,12 @@
 ## What does it do?
 It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It specifies an electronic health record data model and set of terminologies. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions (in `src/main/resources/dbmigration`).
 
-## Version 2 development series
-Includes changes to the metadata schema to support improved performance of SQL statements to retrieve concepts. We also plan to update all of our terminologies to the latest versions.
+## Version 2.0.1
+Fix missing close Oktousevalues tag in the C_METADATAXML for LOINC 731-0. It was causing a parsing
+exception in aiw-i2b2-etl.
+
+## Version 2.0
+Changes the metadata schema to support improved performance of SQL statements to retrieve concepts.
 
 ## Version 1.2
 Initial version, with various bug fixes.
