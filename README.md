@@ -1,8 +1,13 @@
 # Eureka! Clinical Ontology Installation Files
-[Atlanta Clinical and Translational Science Institute (ACTSI)](http://www.actsi.org), [Emory University](http://www.emory.edu), Atlanta, GA
+[Georgia Clinical and Translational Science Alliance (Georgia CTSA)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 ## What does it do?
 It specifies Eureka! Clinical's extensions to the i2b2 metadata schema. It specifies an electronic health record data model and set of terminologies. It also contains [liquibase](http://liquibase.org) XML changelog files for creating i2b2 metadata schema tables with those extensions (in `src/main/resources/dbmigration`).
+
+Latest release: [![Latest release](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-ontology/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-ontology)
+
+## Version 2.0.2
+Update the parent pom.
 
 ## Version 2.0.1
 Fix missing close Oktousevalues tag in the C_METADATAXML for LOINC 731-0. It was causing a parsing
