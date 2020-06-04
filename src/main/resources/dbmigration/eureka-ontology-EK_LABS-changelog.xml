@@ -14071,4 +14071,10 @@
         <where>c_basecode ='LOINC:72376-7'</where> 
     </update>   
 </changeSet>
+<changeSet author="arpost" id="EK_LABS-12">
+    <update tableName="ek_labs">
+        <column name="c_metadataxml" value="&lt;?xml version=&quot;1.0&quot;?&gt;&lt;ValueMetadata&gt;&lt;Version&gt;3.02&lt;/Version&gt;&lt;CreationDateTime&gt;11/18/2005 14:53:37&lt;/CreationDateTime&gt;&lt;TestID&gt;ALYMPHS&lt;/TestID&gt;&lt;TestName&gt;Abs Lymphs Auto&lt;/TestName&gt;&lt;DataType&gt;PosFloat&lt;/DataType&gt;&lt;CodeType&gt;GRP&lt;/CodeType&gt;&lt;Loinc&gt;731-0&lt;/Loinc&gt;&lt;Flagstouse&gt;HL&lt;/Flagstouse&gt;&lt;Oktousevalues&gt;&lt;/Oktousevalues&gt;&lt;MaxStringLength&gt;&lt;/MaxStringLength&gt;&lt;LowofLowValue&gt;1.0&lt;/LowofLowValue&gt;&lt;HighofLowValue&gt;1.2&lt;/HighofLowValue&gt;&lt;LowofHighValue&gt;3.2&lt;/LowofHighValue&gt;&lt;HighofHighValue&gt;3.5&lt;/HighofHighValue&gt;&lt;LowofToxicValue&gt;&lt;/LowofToxicValue&gt;&lt;HighofToxicValue&gt;&lt;/HighofToxicValue&gt;&lt;EnumValues&gt;&lt;/EnumValues&gt;&lt;CommentsDeterminingExclusion&gt;&lt;Com&gt;&lt;/Com&gt;&lt;/CommentsDeterminingExclusion&gt;&lt;UnitValues&gt;&lt;NormalUnits&gt;k/mm3&lt;/NormalUnits&gt;&lt;EqualUnits&gt;k/cumm&lt;/EqualUnits&gt;&lt;EqualUnits&gt;k/uL&lt;/EqualUnits&gt;&lt;EqualUnits&gt;10^9/L&lt;/EqualUnits&gt;&lt;ExcludingUnits&gt;No Units&lt;/ExcludingUnits&gt;&lt;ConvertingUnits&gt;&lt;Units&gt;&lt;/Units&gt;&lt;MultiplyingFactor&gt;&lt;/MultiplyingFactor&gt;&lt;/ConvertingUnits&gt;&lt;/UnitValues&gt;&lt;Analysis&gt;&lt;Enums /&gt;&lt;Counts /&gt;&lt;New /&gt;&lt;/Analysis&gt;&lt;/ValueMetadata&gt;"/>
+	<where>ek_unique_id='LOINC:731-0'</where>
+    </update>
+</changeSet>
 </databaseChangeLog>
